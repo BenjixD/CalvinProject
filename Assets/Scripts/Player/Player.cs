@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour {
+public class Player : MonoBehaviour, IPlayer {
 
     #region Public Members
     // Change to proper ground layer number if needed
@@ -42,6 +42,14 @@ public class Player : MonoBehaviour {
         get
         {
             return (m_direction != 0.0f);
+        }
+    }
+
+    public bool IsFacingRight
+    {
+        get
+        {
+            return m_facingRight;
         }
     }
 
@@ -210,7 +218,7 @@ public class Player : MonoBehaviour {
     {
         m_currentlyAttacking = true;
         m_triggerAttack = true;
-        yield return new WaitForSeconds(.3f);
+        yield return new WaitForSeconds(.4f);
 
         m_currentlyAttacking = false;
     }

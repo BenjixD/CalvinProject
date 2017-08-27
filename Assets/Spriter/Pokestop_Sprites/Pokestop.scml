@@ -57,52 +57,52 @@
             </mainline>
             <timeline id="0" name="Pokestop_1">
                 <key id="0" spin="0">
-                    <object folder="0" file="0" x="-55" y="57"/>
+                    <object folder="0" file="0" x="-55" y="57" angle="0"/>
                 </key>
             </timeline>
             <timeline id="1" name="Pokestop_2">
                 <key id="0" time="100" spin="0">
-                    <object folder="0" file="1" x="-59" y="56"/>
+                    <object folder="0" file="1" x="-59" y="56" angle="0"/>
                 </key>
             </timeline>
             <timeline id="2" name="Pokestop_3">
                 <key id="0" time="200" spin="0">
-                    <object folder="0" file="2" x="-61" y="56"/>
+                    <object folder="0" file="2" x="-61" y="56" angle="0"/>
                 </key>
             </timeline>
             <timeline id="3" name="Pokestop_4">
                 <key id="0" time="300" spin="0">
-                    <object folder="0" file="3" x="-55" y="56"/>
+                    <object folder="0" file="3" x="-55" y="56" angle="0"/>
                 </key>
             </timeline>
             <timeline id="4" name="Pokestop_5">
                 <key id="0" time="400" spin="0">
-                    <object folder="0" file="4" x="-55" y="60"/>
+                    <object folder="0" file="4" x="-55" y="60" angle="0"/>
                 </key>
             </timeline>
             <timeline id="5" name="Pokestop_6">
                 <key id="0" time="500" spin="0">
-                    <object folder="0" file="5" x="-55" y="59"/>
+                    <object folder="0" file="5" x="-55" y="59" angle="0"/>
                 </key>
             </timeline>
             <timeline id="6" name="Pokestop_7">
                 <key id="0" time="600" spin="0">
-                    <object folder="0" file="6" x="-55" y="56"/>
+                    <object folder="0" file="6" x="-55" y="56" angle="0"/>
                 </key>
             </timeline>
             <timeline id="7" name="Pokestop_8">
                 <key id="0" time="700" spin="0">
-                    <object folder="0" file="7" x="-60" y="56"/>
+                    <object folder="0" file="7" x="-60" y="56" angle="0"/>
                 </key>
             </timeline>
             <timeline id="8" name="Pokestop_9">
                 <key id="0" time="800" spin="0">
-                    <object folder="0" file="8" x="-55" y="55"/>
+                    <object folder="0" file="8" x="-55" y="55" angle="0"/>
                 </key>
             </timeline>
             <timeline id="9" name="Pokestop_10">
                 <key id="0" time="900" spin="0">
-                    <object folder="0" file="9" x="-55" y="62"/>
+                    <object folder="0" file="9" x="-55" y="62" angle="0"/>
                 </key>
             </timeline>
         </animation>
@@ -140,47 +140,59 @@
             </mainline>
             <timeline id="0" name="PokeRing_1">
                 <key id="0" spin="0">
-                    <object folder="0" file="10" x="-16" y="16"/>
+                    <object folder="0" file="10" x="-16" y="16" angle="0"/>
                 </key>
             </timeline>
             <timeline id="1" name="PokeRing_2">
                 <key id="0" time="33" spin="0">
-                    <object folder="0" file="11" x="-16" y="16.5"/>
+                    <object folder="0" file="11" x="-16" y="16.5" angle="0"/>
                 </key>
             </timeline>
             <timeline id="2" name="PokeRing_3">
                 <key id="0" time="66" spin="0">
-                    <object folder="0" file="12" x="-14.5" y="16.5"/>
+                    <object folder="0" file="12" x="-14.5" y="16.5" angle="0"/>
                 </key>
             </timeline>
             <timeline id="3" name="PokeRing_4">
                 <key id="0" time="100" spin="0">
-                    <object folder="0" file="13" x="-13" y="16.5"/>
+                    <object folder="0" file="13" x="-13" y="16.5" angle="0"/>
                 </key>
             </timeline>
             <timeline id="4" name="PokeRing_5">
                 <key id="0" time="133" spin="0">
-                    <object folder="0" file="14" x="-11.5" y="16.5"/>
+                    <object folder="0" file="14" x="-11.5" y="16.5" angle="0"/>
                 </key>
             </timeline>
             <timeline id="5" name="PokeRing_6">
                 <key id="0" time="166" spin="0">
-                    <object folder="0" file="15" x="-11.5" y="16.5"/>
+                    <object folder="0" file="15" x="-11.5" y="16.5" angle="0"/>
                 </key>
             </timeline>
             <timeline id="6" name="PokeRing_7">
                 <key id="0" time="200" spin="0">
-                    <object folder="0" file="16" x="-12.5" y="16.5"/>
+                    <object folder="0" file="16" x="-12.5" y="16.5" angle="0"/>
                 </key>
             </timeline>
             <timeline id="7" name="PokeRing_8">
                 <key id="0" time="233" spin="0">
-                    <object folder="0" file="17" x="-14" y="16.6"/>
+                    <object folder="0" file="17" x="-14" y="16.6" angle="0"/>
                 </key>
             </timeline>
             <timeline id="8" name="PokeRing_9">
                 <key id="0" time="266" spin="0">
-                    <object folder="0" file="18" x="-15.924171" y="16.398104"/>
+                    <object folder="0" file="18" x="-15.924171" y="16.398104" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="Idle" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="PokeRing_1">
+                <key id="0" spin="0">
+                    <object folder="0" file="10" x="-16" y="16" angle="0"/>
                 </key>
             </timeline>
         </animation>
