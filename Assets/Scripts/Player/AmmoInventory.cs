@@ -6,6 +6,7 @@ public class AmmoInventory : MonoBehaviour, IAmmo
 {
     #region Public Members
     public GameObject[] AmmoTypes;
+    public int StartingAmmo;
     #endregion
 
     #region Private Members
@@ -18,7 +19,7 @@ public class AmmoInventory : MonoBehaviour, IAmmo
 
         for(int i = 0; i < AmmoTypes.Length; ++i)
         {
-            m_inventory.Add(AmmoTypes[i], new Supply(AmmoTypes[i]));
+            m_inventory.Add(AmmoTypes[i], new Supply(AmmoTypes[i], StartingAmmo));
         }
 	}
 

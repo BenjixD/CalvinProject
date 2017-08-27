@@ -15,6 +15,7 @@ public class Player : MonoBehaviour, IPlayer {
 
     #region Private Members
     Rigidbody2D m_playerRB;
+    IAttack m_basicAttack;
 
     float m_direction;
     float distToGround;
@@ -74,9 +75,12 @@ public class Player : MonoBehaviour, IPlayer {
     // Use this for initialization
     void Start () {
         m_playerRB = GetComponent<Rigidbody2D>();
+        m_basicAttack = GetComponent<MultiThrow>();
+
         CurrentJumpingState = JumpingState.Grounded;
         distToGround = GetComponent<BoxCollider2D>().bounds.extents.y - GetComponent<BoxCollider2D>().offset.y/2;
 
+        m_facingRight = false;
         m_currentlyAttacking = false;
         m_currentlyJumping = false;
         m_triggerAttack = false;
@@ -218,6 +222,7 @@ public class Player : MonoBehaviour, IPlayer {
     {
         m_currentlyAttacking = true;
         m_triggerAttack = true;
+        m_basicAttack.InitAttack();
         yield return new WaitForSeconds(.4f);
 
         m_currentlyAttacking = false;
