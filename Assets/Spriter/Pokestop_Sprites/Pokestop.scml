@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="Pokestop_1.png" width="111" height="117" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="Pokestop_2.png" width="115" height="111" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="Pokestop_3.png" width="123" height="111" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="Pokestop_4.png" width="111" height="111" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="Pokestop_5.png" width="111" height="121" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="Pokestop_6.png" width="111" height="113" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="Pokestop_7.png" width="112" height="111" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="Pokestop_8.png" width="121" height="110" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="Pokestop_9.png" width="111" height="109" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="Pokestop_10.png" width="111" height="121" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="PokeRing_1.png" width="32" height="32" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="PokeRing_2.png" width="32" height="33" pivot_x="0" pivot_y="1"/>
+        <file id="12" name="PokeRing_3.png" width="29" height="33" pivot_x="0" pivot_y="1"/>
+        <file id="13" name="PokeRing_4.png" width="26" height="34" pivot_x="0" pivot_y="1"/>
+        <file id="14" name="PokeRing_5.png" width="23" height="33" pivot_x="0" pivot_y="1"/>
+        <file id="15" name="PokeRing_6.png" width="23" height="33" pivot_x="0" pivot_y="1"/>
+        <file id="16" name="PokeRing_7.png" width="25" height="33" pivot_x="0" pivot_y="1"/>
+        <file id="17" name="PokeRing_8.png" width="28" height="33" pivot_x="0" pivot_y="1"/>
+        <file id="18" name="PokeRing_9.png" width="32" height="33" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="Pokestop">
+        <animation id="0" name="PokestopHead" length="1000" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="300">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="4" key="0" z_index="0"/>
+                </key>
+                <key id="5" time="500">
+                    <object_ref id="0" timeline="5" key="0" z_index="0"/>
+                </key>
+                <key id="6" time="600">
+                    <object_ref id="0" timeline="6" key="0" z_index="0"/>
+                </key>
+                <key id="7" time="700">
+                    <object_ref id="0" timeline="7" key="0" z_index="0"/>
+                </key>
+                <key id="8" time="800">
+                    <object_ref id="0" timeline="8" key="0" z_index="0"/>
+                </key>
+                <key id="9" time="900">
+                    <object_ref id="0" timeline="9" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Pokestop_1">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-55" y="57"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="Pokestop_2">
+                <key id="0" time="100" spin="0">
+                    <object folder="0" file="1" x="-59" y="56"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="Pokestop_3">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="2" x="-61" y="56"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="Pokestop_4">
+                <key id="0" time="300" spin="0">
+                    <object folder="0" file="3" x="-55" y="56"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="Pokestop_5">
+                <key id="0" time="400" spin="0">
+                    <object folder="0" file="4" x="-55" y="60"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="Pokestop_6">
+                <key id="0" time="500" spin="0">
+                    <object folder="0" file="5" x="-55" y="59"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="Pokestop_7">
+                <key id="0" time="600" spin="0">
+                    <object folder="0" file="6" x="-55" y="56"/>
+                </key>
+            </timeline>
+            <timeline id="7" name="Pokestop_8">
+                <key id="0" time="700" spin="0">
+                    <object folder="0" file="7" x="-60" y="56"/>
+                </key>
+            </timeline>
+            <timeline id="8" name="Pokestop_9">
+                <key id="0" time="800" spin="0">
+                    <object folder="0" file="8" x="-55" y="55"/>
+                </key>
+            </timeline>
+            <timeline id="9" name="Pokestop_10">
+                <key id="0" time="900" spin="0">
+                    <object folder="0" file="9" x="-55" y="62"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="1" name="PokestopEye">
+        <animation id="0" name="PokestopEye" length="300" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="33">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="66">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="100">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+                <key id="4" time="133">
+                    <object_ref id="0" timeline="4" key="0" z_index="0"/>
+                </key>
+                <key id="5" time="166">
+                    <object_ref id="0" timeline="5" key="0" z_index="0"/>
+                </key>
+                <key id="6" time="200">
+                    <object_ref id="0" timeline="6" key="0" z_index="0"/>
+                </key>
+                <key id="7" time="233">
+                    <object_ref id="0" timeline="7" key="0" z_index="0"/>
+                </key>
+                <key id="8" time="266">
+                    <object_ref id="0" timeline="8" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="PokeRing_1">
+                <key id="0" spin="0">
+                    <object folder="0" file="10" x="-16" y="16"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="PokeRing_2">
+                <key id="0" time="33" spin="0">
+                    <object folder="0" file="11" x="-16" y="16.5"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="PokeRing_3">
+                <key id="0" time="66" spin="0">
+                    <object folder="0" file="12" x="-14.5" y="16.5"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="PokeRing_4">
+                <key id="0" time="100" spin="0">
+                    <object folder="0" file="13" x="-13" y="16.5"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="PokeRing_5">
+                <key id="0" time="133" spin="0">
+                    <object folder="0" file="14" x="-11.5" y="16.5"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="PokeRing_6">
+                <key id="0" time="166" spin="0">
+                    <object folder="0" file="15" x="-11.5" y="16.5"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="PokeRing_7">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="16" x="-12.5" y="16.5"/>
+                </key>
+            </timeline>
+            <timeline id="7" name="PokeRing_8">
+                <key id="0" time="233" spin="0">
+                    <object folder="0" file="17" x="-14" y="16.6"/>
+                </key>
+            </timeline>
+            <timeline id="8" name="PokeRing_9">
+                <key id="0" time="266" spin="0">
+                    <object folder="0" file="18" x="-15.924171" y="16.398104"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

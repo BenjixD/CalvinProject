@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="stand1_2.png" width="47" height="74" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="stand1_0.png" width="45" height="74" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="stand1_1.png" width="46" height="74" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="walk1_0.png" width="48" height="74" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="walk1_1.png" width="45" height="73" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="walk1_2.png" width="52" height="74" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="walk1_3.png" width="53" height="73" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="rope_0.png" width="45" height="72" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="rope_1.png" width="45" height="67" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="swingO1_0.png" width="127" height="76" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="swingO1_1.png" width="137" height="119" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="swingO1_2.png" width="196" height="202" pivot_x="0" pivot_y="1"/>
+        <file id="12" name="swingO2_0.png" width="100" height="86" pivot_x="0" pivot_y="1"/>
+        <file id="13" name="swingO2_1.png" width="118" height="120" pivot_x="0" pivot_y="1"/>
+        <file id="14" name="swingO2_2.png" width="197" height="195" pivot_x="0" pivot_y="1"/>
+        <file id="15" name="swingO3_0.png" width="140" height="100" pivot_x="0" pivot_y="1"/>
+        <file id="16" name="swingO3_1.png" width="205" height="143" pivot_x="0" pivot_y="1"/>
+        <file id="17" name="swingO3_2.png" width="255" height="138" pivot_x="0" pivot_y="1"/>
+        <file id="18" name="Jump.png" width="45" height="72" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="Calvin">
+        <animation id="0" name="Stand" length="1200" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="300">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="600">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="900">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+                <key id="4" time="1167">
+                    <object_ref id="0" timeline="3" key="1" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="stand1_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="1" x="-20" y="70" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="stand1_1">
+                <key id="0" time="300" spin="0">
+                    <object folder="0" file="2" x="-20" y="70" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="stand1_2">
+                <key id="0" time="600" spin="0">
+                    <object folder="0" file="0" x="-20" y="70" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="stand1_1_000">
+                <key id="0" time="900" spin="0">
+                    <object folder="0" file="2" x="-20" y="70" angle="0"/>
+                </key>
+                <key id="1" time="1167" spin="0">
+                    <object folder="0" file="2" x="-20" y="70" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="Jump" length="100" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Jump">
+                <key id="0" spin="0">
+                    <object folder="0" file="18" x="-20" y="67" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="Rope" length="200" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="rope_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="7" x="-20" y="68" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="rope_1">
+                <key id="0" time="100" spin="0">
+                    <object folder="0" file="8" x="-20" y="63" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="3" name="Attack 1" length="300" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="swingO1_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="9" x="-20" y="65" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="swingO1_1">
+                <key id="0" time="100" spin="0">
+                    <object folder="0" file="10" x="-21" y="69" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="swingO1_2">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="11" x="-85" y="132" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="4" name="Attack 3" length="300" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="swingO3_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="15" x="-30" y="96" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="swingO3_1">
+                <key id="0" time="100" spin="0">
+                    <object folder="0" file="16" x="-104" y="134" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="swingO3_2">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="17" x="-99" y="114" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="5" name="Attack 2" length="300" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="swingO2_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="12" x="-26" y="82" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="swingO2_1">
+                <key id="0" time="100" spin="0">
+                    <object folder="0" file="13" x="-42" y="116" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="swingO2_2">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="14" x="-132" y="118" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="6" name="Walk" length="400" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="99">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="299">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="walk1_0">
+                <key id="0" spin="0">
+                    <object folder="0" file="3" x="-20" y="70" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="walk1_1">
+                <key id="0" time="99" spin="0">
+                    <object folder="0" file="4" x="-20" y="69" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="walk1_2">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="5" x="-20" y="70" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="walk1_3">
+                <key id="0" time="299" spin="0">
+                    <object folder="0" file="6" x="-20" y="69" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
