@@ -223,7 +223,7 @@ public class Player : MonoBehaviour, IPlayer {
         m_currentlyAttacking = true;
         m_triggerAttack = true;
         m_basicAttack.InitAttack();
-        yield return new WaitForSeconds(.4f);
+        yield return new WaitForSeconds(.35f);
 
         m_currentlyAttacking = false;
     }

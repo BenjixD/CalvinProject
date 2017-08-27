@@ -337,10 +337,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114709732066157438, guid: b29db4212dd8d8f478ad3a0090d6feb9,
+    - target: {fileID: 114312139545046358, guid: b29db4212dd8d8f478ad3a0090d6feb9,
         type: 2}
       propertyPath: AmmoTypes.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4336012484587782, guid: b29db4212dd8d8f478ad3a0090d6feb9, type: 2}
       propertyPath: m_LocalPosition.x
@@ -374,11 +374,22 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 114709732066157438, guid: b29db4212dd8d8f478ad3a0090d6feb9,
+    - target: {fileID: 114312139545046358, guid: b29db4212dd8d8f478ad3a0090d6feb9,
         type: 2}
-      propertyPath: AmmoTypes.Array.data[0]
+      propertyPath: AmmoTypes.Array.data[1]
       value: 
-      objectReference: {fileID: 1207459931259762, guid: 3c824162804c0d649bf1f94f4a7593ae,
+      objectReference: {fileID: 1525490247696810, guid: 62965402768008148b179358ec2f0ef1,
+        type: 2}
+    - target: {fileID: 114312139545046358, guid: b29db4212dd8d8f478ad3a0090d6feb9,
+        type: 2}
+      propertyPath: StartingAmmo
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114312139545046358, guid: b29db4212dd8d8f478ad3a0090d6feb9,
+        type: 2}
+      propertyPath: AmmoTypes.Array.data[2]
+      value: 
+      objectReference: {fileID: 1126616189476738, guid: 77d7545fb47c9894c937f2b9017619cd,
         type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b29db4212dd8d8f478ad3a0090d6feb9, type: 2}
@@ -668,33 +679,6 @@ GameObject:
   m_PrefabParentObject: {fileID: 1974152619908420, guid: b29db4212dd8d8f478ad3a0090d6feb9,
     type: 2}
   m_PrefabInternal: {fileID: 1303262355}
---- !u!114 &1905062179
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1905062171}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17462404e28803641886693e2f882e48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NumThrows: 4
-  SpawnOffset: {x: 0.25, y: 0.25, z: 0}
---- !u!114 &1905062180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1905062171}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d7148dab4ec6b145a1029299a1daf16, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AmmoTypes:
-  - {fileID: 1207459931259762, guid: 3c824162804c0d649bf1f94f4a7593ae, type: 2}
-  StartingAmmo: 100
 --- !u!1 &2121976495
 GameObject:
   m_ObjectHideFlags: 0

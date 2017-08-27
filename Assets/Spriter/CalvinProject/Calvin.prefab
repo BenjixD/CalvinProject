@@ -345,6 +345,8 @@ GameObject:
   - component: {fileID: 61798841859914908}
   - component: {fileID: 114171331867985072}
   - component: {fileID: 114709732066157438}
+  - component: {fileID: 114640485408200088}
+  - component: {fileID: 114312139545046358}
   m_Layer: 9
   m_Name: Calvin
   m_TagString: Untagged
@@ -2569,6 +2571,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93a69a9a1cc3c554f9e8b154d196366b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114312139545046358
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1974152619908420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7148dab4ec6b145a1029299a1daf16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AmmoTypes:
+  - {fileID: 1207459931259762, guid: 3c824162804c0d649bf1f94f4a7593ae, type: 2}
+  StartingAmmo: 100
 --- !u!114 &114604177387021414
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2582,6 +2598,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sortingOrder: 0
   applySpriterZOrder: 0
+--- !u!114 &114640485408200088
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1974152619908420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17462404e28803641886693e2f882e48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NumThrows: 4
+  SpawnOffset: {x: 0.25, y: 0.25, z: 0}
 --- !u!114 &114709732066157438
 MonoBehaviour:
   m_ObjectHideFlags: 1
