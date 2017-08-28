@@ -11,6 +11,10 @@ public class Player : MonoBehaviour, IPlayer {
     public float verticalSpd;
     public float flashJumpSpd;
     public Vector3 HorizontalOffset;
+
+    //Flash Jump
+    public Vector3 FlashJumpOffset;
+    public GameObject FlashJumpPrefab;
     #endregion
 
     #region Private Members
@@ -165,6 +169,12 @@ public class Player : MonoBehaviour, IPlayer {
             {
                 CurrentJumpingState++;
                 m_currentlyJumping = true;
+
+                //Flash Jump
+                if(CurrentJumpingState == JumpingState.DoubleJump)
+                {
+                    SpawnDoubleJumpIndicator();
+                }
             }
             else
             {
@@ -214,7 +224,19 @@ public class Player : MonoBehaviour, IPlayer {
         }
 
         return new Vector2(m_x, m_y);
-    }    
+    }
+    
+    void SpawnDoubleJumpIndicator()
+    {
+        Vector3 spawnLocation = new Vector3(transform.position.x + (m_facingRight ? FlashJumpOffset.x : -1 * FlashJumpOffset.x),
+                                              transform.position.y + FlashJumpOffset.y,
+                                              transform.position.z);
+        GameObject obj = (GameObject)Instantiate(FlashJumpPrefab, spawnLocation, transform.rotation);
+        if(m_facingRight)
+        {
+            obj.transform.localScale = new Vector3(-1*obj.transform.localScale.x, obj.transform.localScale.y, obj.transform.localScale.z);
+        }
+    }
     #endregion
 
     #region Coroutines

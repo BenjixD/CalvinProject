@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="effect.1.png" width="202" height="78" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="effect.2.png" width="188" height="78" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="effect.3.png" width="151" height="78" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="effect.4.png" width="151" height="76" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="effect.5.png" width="151" height="57" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="FlashJump">
+        <animation id="0" name="Jump" length="500" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="300">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="4" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="effect">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" x="-100.5" y="38.6" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="effect_000">
+                <key id="0" time="100" spin="0">
+                    <object folder="0" file="1" x="-94" y="39.5" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="effect_001">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="2" x="-79.5" y="39.5" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="effect_002">
+                <key id="0" time="300" spin="0">
+                    <object folder="0" file="3" x="-78" y="37.693252" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="effect_003">
+                <key id="0" time="400" spin="0">
+                    <object folder="0" file="4" x="-79" y="19" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

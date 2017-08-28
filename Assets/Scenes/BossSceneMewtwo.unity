@@ -391,6 +391,22 @@ Prefab:
       value: 
       objectReference: {fileID: 1126616189476738, guid: 77d7545fb47c9894c937f2b9017619cd,
         type: 2}
+    - target: {fileID: 114709732066157438, guid: b29db4212dd8d8f478ad3a0090d6feb9,
+        type: 2}
+      propertyPath: FlashJumpPrefab
+      value: 
+      objectReference: {fileID: 1357620620834790, guid: e0e9b9ab42c6d544a81614bbd90c7ffa,
+        type: 2}
+    - target: {fileID: 114709732066157438, guid: b29db4212dd8d8f478ad3a0090d6feb9,
+        type: 2}
+      propertyPath: FlashJumpOffset.x
+      value: -0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 114709732066157438, guid: b29db4212dd8d8f478ad3a0090d6feb9,
+        type: 2}
+      propertyPath: FlashJumpOffset.y
+      value: 0.35
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b29db4212dd8d8f478ad3a0090d6feb9, type: 2}
   m_IsPrefabParent: 0
