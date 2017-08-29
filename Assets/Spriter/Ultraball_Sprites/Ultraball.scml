@@ -37,10 +37,13 @@
                 <key id="7" time="700">
                     <object_ref id="0" timeline="7" key="0" z_index="0"/>
                 </key>
+                <key id="8" time="800">
+                    <object_ref id="0" timeline="8" key="0" z_index="0"/>
+                </key>
             </mainline>
             <timeline id="0" name="Ultraball_1">
                 <key id="0" spin="0">
-                    <object folder="0" file="0" x="-11" y="11"/>
+                    <object folder="0" file="0" x="-11" y="11" angle="0"/>
                 </key>
             </timeline>
             <timeline id="1" name="Ultraball_2">
@@ -50,7 +53,7 @@
             </timeline>
             <timeline id="2" name="Ultraball_3">
                 <key id="0" time="200" spin="0">
-                    <object folder="0" file="2" x="-11" y="11"/>
+                    <object folder="0" file="2" x="-11" y="11" angle="0"/>
                 </key>
             </timeline>
             <timeline id="3" name="Ultraball_4">
@@ -70,12 +73,17 @@
             </timeline>
             <timeline id="6" name="Ultraball_7">
                 <key id="0" time="600" spin="0">
-                    <object folder="0" file="6" x="-11" y="11"/>
+                    <object folder="0" file="6" x="-11" y="11" angle="0"/>
                 </key>
             </timeline>
             <timeline id="7" name="Ultraball_8">
                 <key id="0" time="700" spin="0">
                     <object folder="0" file="7" y="15.5" angle="315"/>
+                </key>
+            </timeline>
+            <timeline id="8" name="Ultraball_1_000">
+                <key id="0" time="800" spin="0">
+                    <object folder="0" file="0" x="-11" y="11"/>
                 </key>
             </timeline>
         </animation>

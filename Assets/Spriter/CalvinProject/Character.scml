@@ -36,8 +36,8 @@
                 <key id="3" time="900">
                     <object_ref id="0" timeline="3" key="0" z_index="0"/>
                 </key>
-                <key id="4" time="1167">
-                    <object_ref id="0" timeline="3" key="1" z_index="0"/>
+                <key id="4" time="1200">
+                    <object_ref id="0" timeline="4" key="0" z_index="0"/>
                 </key>
             </mainline>
             <timeline id="0" name="stand1_0">
@@ -59,8 +59,10 @@
                 <key id="0" time="900" spin="0">
                     <object folder="0" file="2" x="-20" y="70" angle="0"/>
                 </key>
-                <key id="1" time="1167" spin="0">
-                    <object folder="0" file="2" x="-20" y="70" angle="0"/>
+            </timeline>
+            <timeline id="4" name="stand1_0_000">
+                <key id="0" time="1200" spin="0">
+                    <object folder="0" file="1" x="-20" y="70" angle="0"/>
                 </key>
             </timeline>
         </animation>
@@ -84,6 +86,9 @@
                 <key id="1" time="100">
                     <object_ref id="0" timeline="1" key="0" z_index="0"/>
                 </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
             </mainline>
             <timeline id="0" name="rope_0">
                 <key id="0" spin="0">
@@ -95,17 +100,25 @@
                     <object folder="0" file="8" x="-20" y="63" angle="0"/>
                 </key>
             </timeline>
+            <timeline id="2" name="rope_0_000">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="7" x="-20" y="68" angle="0"/>
+                </key>
+            </timeline>
         </animation>
-        <animation id="3" name="Attack 1" length="300" interval="100">
+        <animation id="3" name="Attack 1" length="375" interval="100">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
                 </key>
-                <key id="1" time="100">
+                <key id="1" time="125">
                     <object_ref id="0" timeline="1" key="0" z_index="0"/>
                 </key>
-                <key id="2" time="200">
+                <key id="2" time="250">
                     <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="375">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
                 </key>
             </mainline>
             <timeline id="0" name="swingO1_0">
@@ -114,26 +127,34 @@
                 </key>
             </timeline>
             <timeline id="1" name="swingO1_1">
-                <key id="0" time="100" spin="0">
+                <key id="0" time="125" spin="0">
                     <object folder="0" file="10" x="-21" y="69" angle="0"/>
                 </key>
             </timeline>
             <timeline id="2" name="swingO1_2">
-                <key id="0" time="200" spin="0">
+                <key id="0" time="250" spin="0">
                     <object folder="0" file="11" x="-85" y="132" angle="0"/>
                 </key>
             </timeline>
+            <timeline id="3" name="swingO1_0_000">
+                <key id="0" time="375" spin="0">
+                    <object folder="0" file="9" x="-20" y="65" angle="0"/>
+                </key>
+            </timeline>
         </animation>
-        <animation id="4" name="Attack 3" length="300" interval="100">
+        <animation id="4" name="Attack 3" length="375" interval="100">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
                 </key>
-                <key id="1" time="100">
+                <key id="1" time="125">
                     <object_ref id="0" timeline="1" key="0" z_index="0"/>
                 </key>
-                <key id="2" time="200">
+                <key id="2" time="250">
                     <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="375">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
                 </key>
             </mainline>
             <timeline id="0" name="swingO3_0">
@@ -142,26 +163,34 @@
                 </key>
             </timeline>
             <timeline id="1" name="swingO3_1">
-                <key id="0" time="100" spin="0">
+                <key id="0" time="125" spin="0">
                     <object folder="0" file="16" x="-104" y="134" angle="0"/>
                 </key>
             </timeline>
             <timeline id="2" name="swingO3_2">
-                <key id="0" time="200" spin="0">
+                <key id="0" time="250" spin="0">
                     <object folder="0" file="17" x="-99" y="114" angle="0"/>
                 </key>
             </timeline>
+            <timeline id="3" name="swingO3_0_000">
+                <key id="0" time="375" spin="0">
+                    <object folder="0" file="15" x="-14" y="96" angle="0"/>
+                </key>
+            </timeline>
         </animation>
-        <animation id="5" name="Attack 2" length="300" interval="100">
+        <animation id="5" name="Attack 2" length="375" interval="100">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
                 </key>
-                <key id="1" time="100">
+                <key id="1" time="125">
                     <object_ref id="0" timeline="1" key="0" z_index="0"/>
                 </key>
-                <key id="2" time="200">
+                <key id="2" time="250">
                     <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="375">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
                 </key>
             </mainline>
             <timeline id="0" name="swingO2_0">
@@ -170,13 +199,18 @@
                 </key>
             </timeline>
             <timeline id="1" name="swingO2_1">
-                <key id="0" time="100" spin="0">
+                <key id="0" time="125" spin="0">
                     <object folder="0" file="13" x="-42" y="116" angle="0"/>
                 </key>
             </timeline>
             <timeline id="2" name="swingO2_2">
-                <key id="0" time="200" spin="0">
+                <key id="0" time="250" spin="0">
                     <object folder="0" file="14" x="-132" y="118" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="swingO2_0_000">
+                <key id="0" time="375" spin="0">
+                    <object folder="0" file="12" x="-26" y="82" angle="0"/>
                 </key>
             </timeline>
         </animation>
@@ -193,6 +227,9 @@
                 </key>
                 <key id="3" time="299">
                     <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="4" key="0" z_index="0"/>
                 </key>
             </mainline>
             <timeline id="0" name="walk1_0">
@@ -213,6 +250,11 @@
             <timeline id="3" name="walk1_3">
                 <key id="0" time="299" spin="0">
                     <object folder="0" file="6" x="-20" y="69" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="walk1_0_000">
+                <key id="0" time="400" spin="0">
+                    <object folder="0" file="3" x="-20" y="70" angle="0"/>
                 </key>
             </timeline>
         </animation>

@@ -54,6 +54,9 @@
                 <key id="9" time="900">
                     <object_ref id="0" timeline="9" key="0" z_index="0"/>
                 </key>
+                <key id="10" time="1000">
+                    <object_ref id="0" timeline="10" key="0" z_index="0"/>
+                </key>
             </mainline>
             <timeline id="0" name="Pokestop_1">
                 <key id="0" spin="0">
@@ -105,6 +108,11 @@
                     <object folder="0" file="9" x="-55" y="62" angle="0"/>
                 </key>
             </timeline>
+            <timeline id="10" name="Pokestop_1_000">
+                <key id="0" time="1000" spin="0">
+                    <object folder="0" file="0" x="-55" y="57"/>
+                </key>
+            </timeline>
         </animation>
     </entity>
     <entity id="1" name="PokestopEye">
@@ -136,6 +144,9 @@
                 </key>
                 <key id="8" time="266">
                     <object_ref id="0" timeline="8" key="0" z_index="0"/>
+                </key>
+                <key id="9" time="300">
+                    <object_ref id="0" timeline="9" key="0" z_index="0"/>
                 </key>
             </mainline>
             <timeline id="0" name="PokeRing_1">
@@ -181,6 +192,11 @@
             <timeline id="8" name="PokeRing_9">
                 <key id="0" time="266" spin="0">
                     <object folder="0" file="18" x="-15.924171" y="16.398104" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="9" name="PokeRing_1_000">
+                <key id="0" time="300" spin="0">
+                    <object folder="0" file="10" x="-16" y="16"/>
                 </key>
             </timeline>
         </animation>

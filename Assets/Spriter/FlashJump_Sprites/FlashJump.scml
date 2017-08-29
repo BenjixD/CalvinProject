@@ -6,6 +6,7 @@
         <file id="2" name="effect.3.png" width="151" height="78" pivot_x="0" pivot_y="1"/>
         <file id="3" name="effect.4.png" width="151" height="76" pivot_x="0" pivot_y="1"/>
         <file id="4" name="effect.5.png" width="151" height="57" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="effect.0.png" width="1" height="1" pivot_x="0" pivot_y="1"/>
     </folder>
     <entity id="0" name="FlashJump">
         <animation id="0" name="Jump" length="500" interval="100">
@@ -24,6 +25,9 @@
                 </key>
                 <key id="4" time="400">
                     <object_ref id="0" timeline="4" key="0" z_index="0"/>
+                </key>
+                <key id="5" time="500">
+                    <object_ref id="0" timeline="5" key="0" z_index="0"/>
                 </key>
             </mainline>
             <timeline id="0" name="effect">
@@ -49,6 +53,11 @@
             <timeline id="4" name="effect_003">
                 <key id="0" time="400" spin="0">
                     <object folder="0" file="4" x="-79" y="19" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="effect_004">
+                <key id="0" time="500" spin="0">
+                    <object folder="0" file="5" x="-10" y="-3"/>
                 </key>
             </timeline>
         </animation>
