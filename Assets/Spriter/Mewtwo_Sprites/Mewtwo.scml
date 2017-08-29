@@ -29,6 +29,13 @@
         <file id="25" name="19.png" width="53" height="56" pivot_x="0" pivot_y="1"/>
         <file id="26" name="17.png" width="56" height="69" pivot_x="0" pivot_y="1"/>
         <file id="27" name="18.png" width="45" height="56" pivot_x="0" pivot_y="1"/>
+        <file id="28" name="52.png" width="51" height="56" pivot_x="0" pivot_y="1"/>
+        <file id="29" name="53.png" width="55" height="56" pivot_x="0" pivot_y="1"/>
+        <file id="30" name="54.png" width="73" height="56" pivot_x="0" pivot_y="1"/>
+        <file id="31" name="55.png" width="90" height="56" pivot_x="0" pivot_y="1"/>
+        <file id="32" name="56.png" width="100" height="56" pivot_x="0" pivot_y="1"/>
+        <file id="33" name="57.png" width="112" height="56" pivot_x="0" pivot_y="1"/>
+        <file id="34" name="58.png" width="83" height="56" pivot_x="0" pivot_y="1"/>
     </folder>
     <entity id="0" name="Mewtwo">
         <animation id="0" name="Start Charging Ball" length="800" interval="100">
@@ -299,6 +306,51 @@
                 </key>
                 <key id="1" time="300" spin="0">
                     <object folder="0" file="2" x="-53.5" y="52" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="7" name="Melee Attack" length="600" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="300">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+                <key id="5" time="500">
+                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                </key>
+                <key id="6" time="600">
+                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="53">
+                <key id="0" spin="0">
+                    <object folder="0" file="29" x="-21.5" y="52"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="30" x="-21.5" y="52"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="0" file="31" x="-21.5" y="52"/>
+                </key>
+                <key id="3" time="300" spin="0">
+                    <object folder="0" file="32" x="-21.5" y="52"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="0" file="33" x="-21.5" y="52"/>
+                </key>
+                <key id="5" time="500" spin="0">
+                    <object folder="0" file="34" x="-21.5" y="52"/>
                 </key>
             </timeline>
         </animation>
