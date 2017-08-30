@@ -36,6 +36,13 @@
         <file id="32" name="56.png" width="100" height="56" pivot_x="0" pivot_y="1"/>
         <file id="33" name="57.png" width="112" height="56" pivot_x="0" pivot_y="1"/>
         <file id="34" name="58.png" width="83" height="56" pivot_x="0" pivot_y="1"/>
+        <file id="35" name="Mootwo_Teleport_1.png" width="40" height="68" pivot_x="0" pivot_y="1"/>
+        <file id="36" name="Mootwo_Teleport_2.png" width="40" height="68" pivot_x="0" pivot_y="1"/>
+        <file id="37" name="Mootwo_Teleport_3.png" width="44" height="68" pivot_x="0" pivot_y="1"/>
+        <file id="38" name="Mootwo_Teleport_4.png" width="44" height="68" pivot_x="0" pivot_y="1"/>
+        <file id="39" name="Mootwo_Teleport_5.png" width="44" height="68" pivot_x="0" pivot_y="1"/>
+        <file id="40" name="Mootwo_Teleport_6.png" width="44" height="68" pivot_x="0" pivot_y="1"/>
+        <file id="41" name="Mootwo_Teleport_7.png" width="44" height="68" pivot_x="0" pivot_y="1"/>
     </folder>
     <entity id="0" name="Mewtwo">
         <animation id="0" name="Start Charging Ball" length="800" interval="100">
@@ -112,7 +119,115 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="1" name="Stand" length="1" interval="100">
+        <animation id="1" name="Teleport Disappear" length="700" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="200" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="300" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="400" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+                <key id="5" time="500">
+                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                </key>
+                <key id="6" time="600" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="6" z_index="0"/>
+                </key>
+                <key id="7" time="700">
+                    <object_ref id="0" timeline="0" key="7" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Mootwo_Teleport_1">
+                <key id="0" spin="0">
+                    <object folder="0" file="35" x="-26.5" y="59"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="36" x="-26.5" y="59"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="0" file="37" x="-28.5" y="59"/>
+                </key>
+                <key id="3" time="300" spin="0">
+                    <object folder="0" file="38" x="-28.5" y="59"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="0" file="39" x="-28.5" y="59"/>
+                </key>
+                <key id="5" time="500" spin="0">
+                    <object folder="0" file="40" x="-28.5" y="59"/>
+                </key>
+                <key id="6" time="600" spin="0">
+                    <object folder="0" file="41" x="-28.5" y="59"/>
+                </key>
+                <key id="7" time="700" spin="0">
+                    <object folder="0" file="35" x="-26.5" y="59"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="2" name="Teleport Reappear" length="700" interval="100">
+            <mainline>
+                <key id="0" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                </key>
+                <key id="2" time="200">
+                    <object_ref id="0" timeline="0" key="2" z_index="0"/>
+                </key>
+                <key id="3" time="300" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="3" z_index="0"/>
+                </key>
+                <key id="4" time="400" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
+                </key>
+                <key id="5" time="500" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                </key>
+                <key id="6" time="600" curve_type="instant">
+                    <object_ref id="0" timeline="0" key="6" z_index="0"/>
+                </key>
+                <key id="7" time="700">
+                    <object_ref id="0" timeline="0" key="7" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="Mootwo_Teleport_1">
+                <key id="0" spin="0">
+                    <object folder="0" file="41" x="-28.5" y="59"/>
+                </key>
+                <key id="1" time="100" spin="0">
+                    <object folder="0" file="40" x="-28.5" y="59"/>
+                </key>
+                <key id="2" time="200" spin="0">
+                    <object folder="0" file="39" x="-28.5" y="59"/>
+                </key>
+                <key id="3" time="300" spin="0">
+                    <object folder="0" file="38" x="-28.5" y="59"/>
+                </key>
+                <key id="4" time="400" spin="0">
+                    <object folder="0" file="37" x="-28.5" y="59"/>
+                </key>
+                <key id="5" time="500" spin="0">
+                    <object folder="0" file="36" x="-26.5" y="59"/>
+                </key>
+                <key id="6" time="600" spin="0">
+                    <object folder="0" file="35" x="-26.5" y="59"/>
+                </key>
+                <key id="7" time="700" spin="0">
+                    <object folder="0" file="41" x="-28.5" y="59"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="3" name="Stand" length="1" interval="100">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
@@ -120,11 +235,11 @@
             </mainline>
             <timeline id="0" name="19">
                 <key id="0" spin="0">
-                    <object folder="0" file="25" x="-25.5" y="52"/>
+                    <object folder="0" file="25" x="-25.5" y="52" angle="0"/>
                 </key>
             </timeline>
         </animation>
-        <animation id="2" name="Shadow Ball" length="400" interval="100">
+        <animation id="4" name="Shadow Ball" length="400" interval="100">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
@@ -168,7 +283,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="3" name="Fire Ball" length="200" interval="100">
+        <animation id="5" name="Fire Ball" length="200" interval="100">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
@@ -202,7 +317,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="4" name="Ki Blast" length="300" interval="100">
+        <animation id="6" name="Ki Blast" length="300" interval="100">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
@@ -219,24 +334,24 @@
             </mainline>
             <timeline id="0" name="13">
                 <key id="0" spin="0">
-                    <object folder="0" file="20"/>
+                    <object folder="0" file="20" angle="0"/>
                 </key>
             </timeline>
             <timeline id="1" name="14">
                 <key id="0" time="100" spin="0">
-                    <object folder="0" file="21" x="3"/>
+                    <object folder="0" file="21" x="3" angle="0"/>
                 </key>
             </timeline>
             <timeline id="2" name="15">
                 <key id="0" time="200" spin="0">
-                    <object folder="0" file="22" x="-2"/>
+                    <object folder="0" file="22" x="-2" angle="0"/>
                 </key>
                 <key id="1" time="300" spin="0">
-                    <object folder="0" file="22" x="-2"/>
+                    <object folder="0" file="22" x="-2" angle="0"/>
                 </key>
             </timeline>
         </animation>
-        <animation id="5" name="Fire Ki Blast" length="500" interval="100">
+        <animation id="7" name="Fire Ki Blast" length="500" interval="100">
             <mainline>
                 <key id="0" curve_type="instant">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
@@ -251,31 +366,28 @@
                     <object_ref id="0" timeline="0" key="3" z_index="0"/>
                 </key>
                 <key id="4" time="500" curve_type="instant">
-                    <object_ref id="0" timeline="0" key="5" z_index="0"/>
+                    <object_ref id="0" timeline="0" key="4" z_index="0"/>
                 </key>
             </mainline>
             <timeline id="0" name="16">
                 <key id="0" spin="0">
-                    <object folder="0" file="23" x="-28.5" y="63"/>
+                    <object folder="0" file="23" x="-28.5" y="63" angle="0"/>
                 </key>
                 <key id="1" time="100" spin="0">
-                    <object folder="0" file="26" x="-22.5" y="63"/>
+                    <object folder="0" file="26" x="-22.5" y="63" angle="0"/>
                 </key>
                 <key id="2" time="199" spin="0">
-                    <object folder="0" file="27" x="-25.5" y="52"/>
+                    <object folder="0" file="27" x="-25.5" y="52" angle="0"/>
                 </key>
                 <key id="3" time="300" spin="0">
-                    <object folder="0" file="25" x="-25.5" y="52"/>
+                    <object folder="0" file="25" x="-27.007463" y="52" angle="0"/>
                 </key>
-                <key id="4" time="300" spin="0">
-                    <object folder="0" file="25" x="-27.007463" y="52"/>
-                </key>
-                <key id="5" time="500" spin="0">
-                    <object folder="0" file="23" x="-28.5" y="63"/>
+                <key id="4" time="500" spin="0">
+                    <object folder="0" file="23" x="-28.5" y="63" angle="0"/>
                 </key>
             </timeline>
         </animation>
-        <animation id="6" name="Hold Ball" length="300" interval="100">
+        <animation id="8" name="Hold Ball" length="300" interval="100">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
@@ -309,7 +421,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="7" name="Melee Attack" length="600" interval="100">
+        <animation id="9" name="Melee Attack" length="600" interval="100">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
@@ -335,22 +447,22 @@
             </mainline>
             <timeline id="0" name="53">
                 <key id="0" spin="0">
-                    <object folder="0" file="29" x="-21.5" y="52"/>
+                    <object folder="0" file="29" x="-21.5" y="52" angle="0"/>
                 </key>
                 <key id="1" time="100" spin="0">
-                    <object folder="0" file="30" x="-21.5" y="52"/>
+                    <object folder="0" file="30" x="-21.5" y="52" angle="0"/>
                 </key>
                 <key id="2" time="200" spin="0">
-                    <object folder="0" file="31" x="-21.5" y="52"/>
+                    <object folder="0" file="31" x="-21.5" y="52" angle="0"/>
                 </key>
                 <key id="3" time="300" spin="0">
-                    <object folder="0" file="32" x="-21.5" y="52"/>
+                    <object folder="0" file="32" x="-21.5" y="52" angle="0"/>
                 </key>
                 <key id="4" time="400" spin="0">
-                    <object folder="0" file="33" x="-21.5" y="52"/>
+                    <object folder="0" file="33" x="-21.5" y="52" angle="0"/>
                 </key>
                 <key id="5" time="500" spin="0">
-                    <object folder="0" file="34" x="-21.5" y="52"/>
+                    <object folder="0" file="34" x="-21.5" y="52" angle="0"/>
                 </key>
             </timeline>
         </animation>
