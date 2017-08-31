@@ -39,6 +39,12 @@ public class ShadowBallBehaviour : MonoBehaviour, IBullet
 
     }
 
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+            OnHit(collision.gameObject);
+    }
+
     #region Interface
     public void SetTravelProperties(Vector3 direction, float speed)
     {
@@ -52,6 +58,8 @@ public class ShadowBallBehaviour : MonoBehaviour, IBullet
     public void OnHit(GameObject other)
     {
         //Deal Effects to other GameObject
+
+        Destroy(gameObject);
     }
     #endregion
 
