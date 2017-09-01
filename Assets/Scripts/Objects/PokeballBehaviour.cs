@@ -46,7 +46,7 @@ public class PokeballBehaviour : MonoBehaviour, IBullet
         //if (collision.gameObject.tag == "Enemy")
         OnHit(other.gameObject);
     }
-    #region
+    #endregion
 
     #region Interface
     public void SetTravelProperties(Vector3 direction, float speed)
