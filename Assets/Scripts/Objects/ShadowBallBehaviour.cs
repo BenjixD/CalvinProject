@@ -48,7 +48,7 @@ public class ShadowBallBehaviour : MonoBehaviour, IBullet
             OnHit(collision.gameObject);
         }
     }
-    #region
+    #endregion
 
     #region Interface
     public void SetTravelProperties(Vector3 direction, float speed)
