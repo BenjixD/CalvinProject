@@ -40,6 +40,7 @@ public class ShadowBallBehaviour : MonoBehaviour, IBullet
 
     }
 
+    #region Trigger Handlers
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
@@ -47,6 +48,7 @@ public class ShadowBallBehaviour : MonoBehaviour, IBullet
             OnHit(collision.gameObject);
         }
     }
+    #region
 
     #region Interface
     public void SetTravelProperties(Vector3 direction, float speed)

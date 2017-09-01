@@ -39,12 +39,14 @@ public class PokeballBehaviour : MonoBehaviour, IBullet
 
     }
 
+    #region Trigger Handlers
     void OnTriggerEnter2D(Collider2D other)
     {
         // TODO: check if other is an enemy
         //if (collision.gameObject.tag == "Enemy")
         OnHit(other.gameObject);
     }
+    #region
 
     #region Interface
     public void SetTravelProperties(Vector3 direction, float speed)
