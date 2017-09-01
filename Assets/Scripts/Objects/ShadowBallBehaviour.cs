@@ -8,6 +8,7 @@ public class ShadowBallBehaviour : MonoBehaviour, IBullet
     #region Public Members
     public float PersistentTime;
     public float ProjectileSpeed;
+    public GameObject HitObject;
     #endregion
 
     #region Private Members
@@ -42,7 +43,9 @@ public class ShadowBallBehaviour : MonoBehaviour, IBullet
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
+        {
             OnHit(collision.gameObject);
+        }
     }
 
     #region Interface
@@ -59,6 +62,7 @@ public class ShadowBallBehaviour : MonoBehaviour, IBullet
     {
         //Deal Effects to other GameObject
 
+        Instantiate(HitObject, transform.position, transform.rotation);
         Destroy(gameObject);
     }
     #endregion
