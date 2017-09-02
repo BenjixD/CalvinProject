@@ -1,48 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
     <folder id="0">
-        <file id="0" name="0.png" width="57" height="63" pivot_x="0" pivot_y="1"/>
-        <file id="1" name="62.png" width="49" height="56" pivot_x="0" pivot_y="1"/>
-        <file id="2" name="69.png" width="89" height="58" pivot_x="0" pivot_y="1"/>
-        <file id="3" name="63.png" width="80" height="56" pivot_x="0" pivot_y="1"/>
-        <file id="4" name="64.png" width="84" height="61" pivot_x="0" pivot_y="1"/>
-        <file id="5" name="65.png" width="102" height="59" pivot_x="0" pivot_y="1"/>
-        <file id="6" name="66.png" width="80" height="56" pivot_x="0" pivot_y="1"/>
-        <file id="7" name="67.png" width="90" height="63" pivot_x="0" pivot_y="1"/>
-        <file id="8" name="68.png" width="86" height="62" pivot_x="0" pivot_y="1"/>
-        <file id="9" name="86.png" width="49" height="56" pivot_x="0" pivot_y="1"/>
-        <file id="10" name="87.png" width="55" height="55" pivot_x="0" pivot_y="1"/>
-        <file id="11" name="90.png" width="63" height="58" pivot_x="0" pivot_y="1"/>
-        <file id="12" name="91.png" width="63" height="58" pivot_x="0" pivot_y="1"/>
-        <file id="13" name="92.png" width="67" height="58" pivot_x="0" pivot_y="1"/>
-        <file id="14" name="93.png" width="114" height="59" pivot_x="0" pivot_y="1"/>
-        <file id="15" name="82.png" width="27" height="28" pivot_x="0.5" pivot_y="0.5"/>
-        <file id="16" name="83.png" width="28" height="27" pivot_x="0.5" pivot_y="0.5"/>
-        <file id="17" name="84.png" width="27" height="28" pivot_x="0.5" pivot_y="0.5"/>
-        <file id="18" name="85.png" width="28" height="27" pivot_x="0.5" pivot_y="0.5"/>
-        <file id="19" name="81.png" width="23" height="22" pivot_x="0" pivot_y="1"/>
-        <file id="20" name="13.png" width="32" height="17" pivot_x="0.5" pivot_y="0.5"/>
-        <file id="21" name="14.png" width="25" height="17" pivot_x="0.5" pivot_y="0.5"/>
-        <file id="22" name="15.png" width="37" height="17" pivot_x="0.5" pivot_y="0.5"/>
-        <file id="23" name="16.png" width="55" height="68" pivot_x="0" pivot_y="1"/>
-        <file id="24" name="2.png" width="53" height="56" pivot_x="0" pivot_y="1"/>
-        <file id="25" name="19.png" width="53" height="56" pivot_x="0" pivot_y="1"/>
-        <file id="26" name="17.png" width="56" height="69" pivot_x="0" pivot_y="1"/>
-        <file id="27" name="18.png" width="45" height="56" pivot_x="0" pivot_y="1"/>
-        <file id="28" name="52.png" width="51" height="56" pivot_x="0" pivot_y="1"/>
-        <file id="29" name="53.png" width="55" height="56" pivot_x="0" pivot_y="1"/>
-        <file id="30" name="54.png" width="73" height="56" pivot_x="0" pivot_y="1"/>
-        <file id="31" name="55.png" width="90" height="56" pivot_x="0" pivot_y="1"/>
-        <file id="32" name="56.png" width="100" height="56" pivot_x="0" pivot_y="1"/>
-        <file id="33" name="57.png" width="112" height="56" pivot_x="0" pivot_y="1"/>
-        <file id="34" name="58.png" width="83" height="56" pivot_x="0" pivot_y="1"/>
-        <file id="35" name="Mootwo_Teleport_1.png" width="40" height="68" pivot_x="0" pivot_y="1"/>
-        <file id="36" name="Mootwo_Teleport_2.png" width="40" height="68" pivot_x="0" pivot_y="1"/>
-        <file id="37" name="Mootwo_Teleport_3.png" width="44" height="68" pivot_x="0" pivot_y="1"/>
-        <file id="38" name="Mootwo_Teleport_4.png" width="44" height="68" pivot_x="0" pivot_y="1"/>
-        <file id="39" name="Mootwo_Teleport_5.png" width="44" height="68" pivot_x="0" pivot_y="1"/>
-        <file id="40" name="Mootwo_Teleport_6.png" width="44" height="68" pivot_x="0" pivot_y="1"/>
-        <file id="41" name="Mootwo_Teleport_7.png" width="44" height="68" pivot_x="0" pivot_y="1"/>
+        <file id="0" name="13.png" width="32" height="17" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="1" name="14.png" width="25" height="17" pivot_x="0.5" pivot_y="0.5"/>
+        <file id="2" name="15.png" width="37" height="17" pivot_x="0.5" pivot_y="0.5"/>
     </folder>
     <entity id="0" name="Ki Blast">
         <animation id="0" name="Idle" length="300" interval="100">
@@ -62,20 +23,20 @@
             </mainline>
             <timeline id="0" name="13">
                 <key id="0" spin="0">
-                    <object folder="0" file="20" angle="0"/>
+                    <object folder="0" file="0" angle="0" scale_x="1.5"/>
                 </key>
             </timeline>
             <timeline id="1" name="14">
                 <key id="0" time="100" spin="0">
-                    <object folder="0" file="21" x="3" angle="0"/>
+                    <object folder="0" file="1" x="3" angle="0"/>
                 </key>
             </timeline>
             <timeline id="2" name="15">
                 <key id="0" time="200" spin="0">
-                    <object folder="0" file="22" x="-2" angle="0"/>
+                    <object folder="0" file="2" x="-2" angle="0"/>
                 </key>
                 <key id="1" time="300" spin="0">
-                    <object folder="0" file="22" x="-2" angle="0"/>
+                    <object folder="0" file="2" x="-2" angle="0"/>
                 </key>
             </timeline>
         </animation>
