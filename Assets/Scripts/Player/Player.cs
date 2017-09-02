@@ -65,6 +65,14 @@ public class Player : MonoBehaviour, IPlayer {
             return m_triggerAttack;
         }
     }
+
+    public GameObject GetObject
+    {
+        get
+        {
+            return gameObject;
+        }
+    }
     #endregion
 
     #region enum
