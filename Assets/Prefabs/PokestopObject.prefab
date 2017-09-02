@@ -1750,6 +1750,16 @@ MonoBehaviour:
   BlueStop: {fileID: 1494908667320590}
   PurpleStop: {fileID: 1508635706968472}
   FadeDuration: 1.5
+  Player: {fileID: 0}
+  NumAmmoTypes: 3
+  NumThrows: 4
+  AmmoRarity:
+  - 0.6
+  - 0.3
+  - 0.1
+  AmmoRandomness: 0.1
+  AmmoGrantMinMultiplier: 3
+  AmmoGrantMaxMultiplier: 5
 --- !u!212 &212008764967352502
 SpriteRenderer:
   m_ObjectHideFlags: 1

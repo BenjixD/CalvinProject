@@ -8,6 +8,14 @@ public class PokestopBehaviour : MonoBehaviour {
     public GameObject BlueStop;
     public GameObject PurpleStop;
     public float FadeDuration;
+    public GameObject Player;
+
+    public int NumAmmoTypes;
+    public int NumThrows;
+    public float[] AmmoRarity;
+    public float AmmoRandomness;
+    public float AmmoGrantMinMultiplier;
+    public float AmmoGrantMaxMultiplier;
     #endregion
 
     #region Private Members
@@ -48,11 +56,36 @@ public class PokestopBehaviour : MonoBehaviour {
         }
     }
 
-	IEnumerator FadeToPurple(){
-        for(;;)
+    private int GetRandomMultiplier()
+    {
+        return (int)(Random.Range(AmmoGrantMinMultiplier, AmmoGrantMaxMultiplier) + Random.Range(AmmoGrantMinMultiplier, AmmoGrantMaxMultiplier));
+    }
+
+    private void GrantItems()
+    {
+        GrantRandomAmmo(NumThrows * GetRandomMultiplier());
+    }
+
+    public void GrantRandomAmmo(int totalAmmo)
+    {
+        int remainingAmmo = totalAmmo;
+        for (int i = 0; i < NumAmmoTypes - 1; i++)
+        {
+            int chooseAmount = (int)(totalAmmo * (AmmoRarity[i] * (Random.Range(1 - AmmoRandomness, 1 + AmmoRandomness))));
+            Player.GetComponent<AmmoInventory>().AddAmmo(i, chooseAmount);
+            remainingAmmo -= chooseAmount;
+        }
+        Player.GetComponent<AmmoInventory>().AddAmmo(NumAmmoTypes - 1, remainingAmmo);
+    }
+    #endregion
+
+    #region Coroutine
+    IEnumerator FadeToPurple()
+    {
+        for (;;)
         {
             float t = (Time.time - m_startTime) / FadeDuration;
-            foreach (SpriteRenderer renderer in BlueStop.GetComponentsInChildren<SpriteRenderer>())
+            foreach (SpriteRenderer renderer in BlueStop.GetComponentsInChildren<SpriteRenderer>(true))
             {
                 renderer.color = new Color(1f, 1f, 1f, 1 - Mathf.SmoothStep(m_minAlpha, m_maxAlpha, t));
             }
@@ -62,7 +95,7 @@ public class PokestopBehaviour : MonoBehaviour {
             }
             yield return null;
         }
-	}
+    }
     #endregion
 
     #region Collision Handlers
@@ -76,6 +109,7 @@ public class PokestopBehaviour : MonoBehaviour {
                 SpinningAnim();
                 m_startTime = Time.time;
                 StartCoroutine("FadeToPurple");
+                GrantItems();
             }
         }
     }
