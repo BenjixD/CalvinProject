@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -40,7 +41,7 @@ public class MultiThrow : MonoBehaviour, IAttack
     #endregion
 
     #region Interface Members
-    public void InitAttack()
+    public void InitAttack(Action<bool> action = null)
     {
         if(m_ammo.AmmoCount() > 0 && !m_attacking)
         {
@@ -60,7 +61,7 @@ public class MultiThrow : MonoBehaviour, IAttack
             //Sanity Check we aren't out of ammo
             if(nonEmptyAmmo.Count > 0)
             {
-                Supply toSpawn = nonEmptyAmmo[Random.Range(0, nonEmptyAmmo.Count)];    //Randomize which non-empty pokeball inventory to choose from
+                Supply toSpawn = nonEmptyAmmo[UnityEngine.Random.Range(0, nonEmptyAmmo.Count)];    //Randomize which non-empty pokeball inventory to choose from
 
                 SpawnPokeball(toSpawn);
                 toSpawn.Inventory--;

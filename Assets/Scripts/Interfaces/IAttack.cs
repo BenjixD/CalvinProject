@@ -5,5 +5,5 @@ using System.Text;
 
 public interface IAttack
 {
-    void InitAttack();
+    void InitAttack(Action<bool> action = null);
 }

@@ -23,8 +23,10 @@ public class Mewtwo : AIBehaviour {
         Config = new MewtwoConfig(this);
         LoadIntents(Config);
         AddIntentBalancers();
+        m_facingRight = true;
 
         StartCoroutine("PerformMove");
+        StartCoroutine("DecrementCooldowns");
 	}
 	
 	// Update is called once per frame
@@ -57,8 +59,18 @@ public class Mewtwo : AIBehaviour {
             ChangeState();
 
             Move selectedMove = ChooseMove();
-            selectedMove.Skill.UseSkill();
-            yield return new WaitForSeconds(2f);
+            if(selectedMove != null)
+            {
+                selectedMove.Skill.InitAttack(selectedMove.AdjustEffectiveness);
+                yield return new WaitForSeconds(selectedMove.Skill.CastTime);
+
+                //
+
+                //Normalize Moves
+                NormalizeMoves();
+            }
+
+            yield return new WaitForEndOfFrame();
         }
         
         yield return null;

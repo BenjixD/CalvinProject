@@ -7,9 +7,14 @@ public class Move
 {
     #region Public Members
     public int Effectiveness;
+    public int Normal;
     public ISkill Skill;
     #endregion
-    
+
+    #region Private Members
+    private int m_adjustmentValue = 5; 
+    #endregion
+
     public Move(ISkill skill, int effectiveness = 50)
     {
         if(effectiveness < 0 || effectiveness > 100)
@@ -18,6 +23,7 @@ public class Move
         }
 
         Effectiveness = effectiveness;
+        Normal = effectiveness;
         Skill = skill;
     }
 
@@ -33,6 +39,22 @@ public class Move
     {
         int change = (normal - Effectiveness) / 10;
         Effectiveness += change;
+    }
+
+    public void AdjustEffectiveness(bool success)
+    {
+        if(success)
+        {
+            Effectiveness += m_adjustmentValue;
+        }
+        else
+        {
+            Effectiveness -= m_adjustmentValue;
+        }
+
+        //DEBUG
+        //Debug.Log("Effectiveness: " + Effectiveness);
+        //
     }
     #endregion
 }
@@ -141,7 +163,7 @@ public class AIBehaviour : MonoBehaviour {
     #endregion
 
     #region Helper Functions
-    private void Flip()
+    public void Flip()
     {
         //Flip the character Model
         m_facingRight = !m_facingRight;
@@ -248,7 +270,7 @@ public class AIBehaviour : MonoBehaviour {
         }
 
         //DEBUG//
-        PrintIntentValues();
+        //PrintIntentValues();
         //
     }
     protected void ResetIntentIndex()
@@ -258,6 +280,20 @@ public class AIBehaviour : MonoBehaviour {
             foreach (IntentIndex intent in intents.Value)
             {
                 intent.ResetIndex();
+            }
+        }
+    }
+
+    protected void NormalizeMoves()
+    {
+        foreach (KeyValuePair<State, IntentIndex[]> intents in Intents)
+        {
+            foreach (IntentIndex intent in intents.Value)
+            {
+                foreach (Move move in intent.Moveset)
+                {
+                    move.NormalizeEffectiveness(move.Normal);
+                }
             }
         }
     }
@@ -291,7 +327,7 @@ public class AIBehaviour : MonoBehaviour {
         }
 
         //Find the best move
-        float score = 0;
+        float score = -1;
         foreach (KeyValuePair<float, Move> move in bestMoves)
         {
             if(move.Key > score)
@@ -329,6 +365,25 @@ public class AIBehaviour : MonoBehaviour {
     public virtual IEnumerator PerformMove()
     {
         yield return null;
+    }
+
+    public virtual IEnumerator DecrementCooldowns()
+    {
+        for(;;)
+        {
+            foreach (KeyValuePair<State, IntentIndex[]> intents in Intents)
+            {
+                foreach (IntentIndex intent in intents.Value)
+                {
+                    foreach (Move move in intent.Moveset)
+                    {
+                        move.Skill.DecrementCooldown(0.1f);
+                    }
+                }
+            }
+
+            yield return new WaitForSeconds(0.1f);
+        }
     }
     #endregion
 

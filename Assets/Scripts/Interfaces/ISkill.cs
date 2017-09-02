@@ -5,10 +5,13 @@ using System.Text;
 
 public interface ISkill : IAttack
 {
+    float CastTime { get; }
     float GetCooldown();
     float GetRemainingCooldown();
     bool IsReady();
     bool IsUsable();
-    void UseSkill();
+
+
+    void DecrementCooldown(float decrement);
 }
 
