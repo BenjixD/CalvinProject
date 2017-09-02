@@ -8,6 +8,7 @@ public class PokeballBehaviour : MonoBehaviour, IBullet
     #region Public Members
     public float PersistentTime;
     public float ProjectileSpeed;
+    public GameObject HitObject;
     #endregion
 
     #region Private Members
@@ -38,6 +39,15 @@ public class PokeballBehaviour : MonoBehaviour, IBullet
 
     }
 
+    #region Trigger Handlers
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        // TODO: check if other is an enemy
+        //if (collision.gameObject.tag == "Enemy")
+        OnHit(other.gameObject);
+    }
+    #endregion
+
     #region Interface
     public void SetTravelProperties(Vector3 direction, float speed)
     {
@@ -51,6 +61,9 @@ public class PokeballBehaviour : MonoBehaviour, IBullet
     public void OnHit(GameObject other)
     {
         //Deal Effects to other GameObject
+
+        Instantiate(HitObject, transform.position, transform.rotation);
+        Destroy(gameObject);
     }
     #endregion
 

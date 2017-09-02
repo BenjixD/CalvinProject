@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0">
+        <file id="0" name="hit.0.0.png" width="95" height="99" pivot_x="0.53" pivot_y="0.45"/>
+        <file id="1" name="hit.0.1.png" width="118" height="115" pivot_x="0.46" pivot_y="0.44"/>
+        <file id="2" name="hit.0.2.png" width="139" height="123" pivot_x="0.43" pivot_y="0.47"/>
+    </folder>
+    <entity id="0" name="Hit">
+        <animation id="0" name="Fade" length="400" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="200" curve_type="instant">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="300">
+                    <object_ref id="0" timeline="2" key="1" z_index="0"/>
+                </key>
+                <key id="4" time="400">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="hit">
+                <key id="0" spin="0">
+                    <object folder="0" file="0" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="hit_000">
+                <key id="0" time="100" spin="0">
+                    <object folder="0" file="1" x="0" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="hit_001">
+                <key id="0" time="200" spin="0">
+                    <object folder="0" file="2" angle="0"/>
+                </key>
+                <key id="1" time="300" spin="0">
+                    <object folder="0" file="2" angle="0" a="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="hit_002">
+                <key id="0" time="400" spin="0">
+                    <object folder="0" file="0" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
