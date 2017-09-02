@@ -5,18 +5,16 @@ using UnityEngine;
 public class PokestopBehaviour : MonoBehaviour {
 
     #region Public Members
-    public GameObject ChildToAnimate;
+    public GameObject[] ChildrenToAnimate;
     public float DestroyDelay;
     #endregion
 
     #region Private Members
-    Animator m_animator;
     bool m_used;
     #endregion
 
     // Use this for initialization
     void Start () {
-        m_animator = ChildToAnimate.GetComponent<Animator>();
         m_used = false;
     }
 	
@@ -28,8 +26,14 @@ public class PokestopBehaviour : MonoBehaviour {
     #region Helper Functions
     private void SpinningAnim()
     {
-        m_animator.SetTrigger("TriggerSpin");
+		foreach (GameObject child in ChildrenToAnimate) {
+			child.GetComponent<Animator>().SetTrigger("TriggerSpin");
+		}
     }
+
+	private void FadeToPurple(){
+		
+	}
     #endregion
 
     #region Collision Handlers
@@ -41,6 +45,7 @@ public class PokestopBehaviour : MonoBehaviour {
             {
                 m_used = true;
                 SpinningAnim();
+				FadeToPurple();
             }
         }
     }

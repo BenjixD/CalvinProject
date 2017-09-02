@@ -54,6 +54,9 @@
                 <key id="9" time="900">
                     <object_ref id="0" timeline="9" key="0" z_index="0"/>
                 </key>
+                <key id="10" time="1000">
+                    <object_ref id="0" timeline="9" key="1" z_index="0"/>
+                </key>
             </mainline>
             <timeline id="0" name="Pokestop_1">
                 <key id="0" spin="0">
@@ -102,6 +105,9 @@
             </timeline>
             <timeline id="9" name="Pokestop_10">
                 <key id="0" time="900" spin="0">
+                    <object folder="0" file="9" x="-55" y="62" angle="0"/>
+                </key>
+                <key id="1" time="1000" spin="0">
                     <object folder="0" file="9" x="-55" y="62" angle="0"/>
                 </key>
             </timeline>
