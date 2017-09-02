@@ -232,34 +232,6 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 2
-        time: 0.2
-        value: 1
-        inSlope: -9.999999
-        outSlope: -9.999999
-        tangentMode: 0
-      - serializedVersion: 2
-        time: 0.3
-        value: 0
-        inSlope: 0.0000009536743
-        outSlope: 0.0000009536743
-        tangentMode: 0
-      - serializedVersion: 2
-        time: 0.4
-        value: 1
-        inSlope: 10.000001
-        outSlope: 10.000001
-        tangentMode: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_Color.a
-    path: hit_001
-    classID: 212
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
         time: 0
         value: 0
         inSlope: Infinity
@@ -272,7 +244,7 @@ AnimationClip:
         outSlope: Infinity
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.4
+        time: 0.3
         value: 0
         inSlope: Infinity
         outSlope: Infinity
@@ -294,7 +266,7 @@ AnimationClip:
         outSlope: Infinity
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.4
+        time: 0.3
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -330,13 +302,6 @@ AnimationClip:
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 1057032652
-      attribute: 304273561
-      script: {fileID: 0}
-      typeID: 212
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1057032652
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -355,7 +320,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.4
+    m_StopTime: 0.3
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -447,8 +412,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 966567501
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1147db5cd64df7d4a9c733ea8704659d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -488,8 +453,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 966567501
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 835ae970f32b64647a2a9c0cad70dd25, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -529,8 +494,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 966567501
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d495fbf6734cd0b42bd952d4f95127a5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -570,8 +535,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 966567501
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d495fbf6734cd0b42bd952d4f95127a5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

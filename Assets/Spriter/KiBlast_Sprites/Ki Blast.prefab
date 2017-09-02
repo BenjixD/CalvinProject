@@ -69,6 +69,9 @@ GameObject:
   - component: {fileID: 4517721998254992}
   - component: {fileID: 95253004680796648}
   - component: {fileID: 114180670544503380}
+  - component: {fileID: 114657212065718280}
+  - component: {fileID: 50324581922276676}
+  - component: {fileID: 58619973621089898}
   m_Layer: 0
   m_Name: Ki Blast
   m_TagString: Untagged
@@ -122,7 +125,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1896581984595202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -2.234, y: -0.679, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4490770378468340}
@@ -131,6 +134,41 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50324581922276676
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1896581984595202}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!58 &58619973621089898
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1896581984595202}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.06, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.09
 --- !u!74 &74768629136905630
 AnimationClip:
   m_ObjectHideFlags: 0
@@ -305,6 +343,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sortingOrder: 0
   applySpriterZOrder: 0
+--- !u!114 &114657212065718280
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1896581984595202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eab9db4f9615d1740a65877d7ff402d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PersistentTime: 0.7
+  ProjectileSpeed: 7
+  HitObject: {fileID: 1384993883200402, guid: f67e827a6b1acfd42b4ed6697d6a40d3, type: 2}
 --- !u!212 &212028028114959520
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -334,8 +386,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 966567501
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 17deee6753629d54c87e7357bc5bea90, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -375,8 +427,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 966567501
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f617e3a46c8a832459712ebb4d745c04, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -416,8 +468,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 966567501
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d0863754a56e0f34dbac8e6b7808fef9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

@@ -65,21 +65,27 @@ public class MewtwoConfig : IBossConfig
 
         Move melee = new Move(new Melee(Instance));
         attackInt.Moveset.Add(melee);
+
+        Move kiBlast = new Move(new KiBlast(Instance));
+        attackInt.Moveset.Add(kiBlast);
     }
 
     private void SetAvoidMoves(IntentIndex avoidInt)
     {
-
+        Move walk = new Move(new Walk(Instance, Walk.MoveType.Avoid));
+        avoidInt.Moveset.Add(walk);
     }
 
     private void SetChaseMoves(IntentIndex chaseInt)
     {
-
+        Move walk = new Move(new Walk(Instance, Walk.MoveType.Chase));
+        chaseInt.Moveset.Add(walk);
     }
 
     private void SetDiscoveryMoves(IntentIndex discoveryInt)
     {
-
+        Move walk = new Move(new Walk(Instance, Walk.MoveType.Discover));
+        discoveryInt.Moveset.Add(walk);
     }
     #endregion
 }
