@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DisableMoveHitBox : MonoBehaviour {
+public class MeleeMoveHitBox : MonoBehaviour {
 
-    //TOTAL LENGTH SHOULD BE LESS THAN 0.5f
+    //TOTAL LENGTH SHOULD BE LESS THAN 0.6f
 
     public Action<bool> Action;
     public float StartHitBox;

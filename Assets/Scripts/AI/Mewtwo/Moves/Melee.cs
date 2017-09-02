@@ -3,23 +3,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Disable : Skill
+public class Melee : Skill
 {
     #region Private Member
     private Mewtwo m_reference;
     private Animator m_animator;
 
-    private Vector3 m_colliderOffset = new Vector3(0.65f, 0.3f, 0f);
+    private Vector3 m_colliderOffset = new Vector3(1.0f, 0.3f, 0f);
     #endregion
 
-    #region Constructor#
-    public Disable(Mewtwo reference)
+    #region Constructor
+    public Melee(Mewtwo reference)
     {
         m_reference = reference;
         m_animator = m_reference.GetComponent<Animator>();
         m_remainingCooldown = 0f;
 
-        m_castTime = 0.5f;
+        m_castTime = 0.6f;
         m_defaultCooldown = 1f;
     }
     #endregion
@@ -68,16 +68,16 @@ public class Disable : Skill
         //Use the attack
         foreach (Transform child in m_reference.gameObject.transform)
         {
-            if(child.name == "DisableHitBox")
+            if(child.name == "MeleeHitBox")
             {
-                child.gameObject.GetComponent<DisableMoveHitBox>().Action = action;
+                child.gameObject.GetComponent<MeleeMoveHitBox>().Action = action;
                 child.gameObject.SetActive(true);
                 break;
             }
         }
 
         //Set Animations
-        m_animator.SetTrigger("UseDisable");
+        m_animator.SetTrigger("UseMelee");
 
         //Put move on cooldown
         PutOnCooldown();

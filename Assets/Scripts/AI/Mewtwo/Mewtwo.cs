@@ -68,6 +68,12 @@ public class Mewtwo : AIBehaviour {
 
                 //Normalize Moves
                 NormalizeMoves();
+
+                //Start Floaty if Disabled
+                if(!GetComponent<FloatyBehaviour>().enabled)
+                {
+                    GetComponent<FloatyBehaviour>().enabled = true;
+                }
             }
 
             yield return new WaitForEndOfFrame();

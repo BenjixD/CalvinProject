@@ -60,8 +60,11 @@ public class MewtwoConfig : IBossConfig
     #region Intent Move Setters
     private void SetAttackMoves(IntentIndex attackInt)
     {
-        Move move = new Move(new Disable(Instance));
-        attackInt.Moveset.Add(move);
+        Move disable = new Move(new Disable(Instance));
+        attackInt.Moveset.Add(disable);
+
+        Move melee = new Move(new Melee(Instance));
+        attackInt.Moveset.Add(melee);
     }
 
     private void SetAvoidMoves(IntentIndex avoidInt)

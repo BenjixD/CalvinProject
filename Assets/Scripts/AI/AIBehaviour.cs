@@ -53,7 +53,7 @@ public class Move
         }
 
         //DEBUG
-        //Debug.Log("Effectiveness: " + Effectiveness);
+        //Debug.Log("Effectiveness: " + Effectiveness + " - " + Skill.GetType().Name);
         //
     }
     #endregion

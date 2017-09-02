@@ -167,7 +167,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4101831901826054}
-  - component: {fileID: 212085309712481698}
   m_Layer: 0
   m_Name: Pokeball_1_000
   m_TagString: Untagged
@@ -726,12 +725,14 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1207459931259762}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 88adcac9882c1594d82f2b15dcaef9d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PersistentTime: 0.75
+  ScanOffsetTopRight: {x: 3.5, y: 0.4, z: 0}
+  ScanOffsetBottomLeft: {x: 0, y: -0.4, z: 0}
+  PersistentTime: 0.6
   ProjectileSpeed: 6
   HitObject: {fileID: 1384993883200402, guid: f67e827a6b1acfd42b4ed6697d6a40d3, type: 2}
 --- !u!114 &114843864925037924
@@ -788,7 +789,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212064932800184154
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -830,7 +830,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212163007320560758
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -872,7 +871,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212164151552010006
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -914,7 +912,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212370558891450406
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -956,7 +953,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212614472865390064
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -998,7 +994,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212730202553816036
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -1040,7 +1035,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212878746898184986
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -1082,4 +1076,3 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
