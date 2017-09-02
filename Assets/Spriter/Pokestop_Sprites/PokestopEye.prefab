@@ -852,6 +852,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!212 &212135526220932286
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -893,6 +894,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!212 &212197450464990260
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -934,6 +936,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!212 &212243105277640630
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -975,6 +978,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!212 &212312877466401624
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -1016,6 +1020,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!212 &212391671737409494
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -1057,6 +1062,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!212 &212442611324141114
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -1098,6 +1104,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!212 &212582690772436084
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -1139,6 +1146,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!212 &212744072403451408
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -1180,6 +1188,7 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
 --- !u!212 &212846785970452306
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -1221,3 +1230,4 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
