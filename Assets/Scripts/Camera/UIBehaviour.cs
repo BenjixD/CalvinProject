@@ -5,8 +5,6 @@ using UnityEngine.UI;
 
 public class UIBehaviour : MonoBehaviour {
 
-    
-    Transform UICanvas;
     Text ammo;
     Slider playerHP;
     Slider mewtwoHP;
@@ -17,11 +15,10 @@ public class UIBehaviour : MonoBehaviour {
 
     // Use this for initialization
 	void Start () {
-        UICanvas = transform.Find("Canvas");
-        ammo = UICanvas.Find("Ammo").GetComponent<Text>();
+        ammo = transform.Find("AmmoCount").Find("Ammo").GetComponent<Text>();
         ammoInv = Calvin.GetComponent<AmmoInventory>();
-        playerHP = UICanvas.Find("PlayerHP").GetComponent<Slider>();
-        mewtwoHP = UICanvas.Find("MewtwoHP").GetComponent<Slider>();
+        playerHP = transform.Find("PlayerHP").GetComponent<Slider>();
+        mewtwoHP = transform.Find("MewtwoHP").GetComponent<Slider>();
         CalvinHealth = Calvin.GetComponent<Health>();
         MewtwoHealth = Mewtwo.GetComponent<Health>();
 
