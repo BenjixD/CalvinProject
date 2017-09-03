@@ -208,11 +208,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 12.8, y: 0.8642669}
   m_EdgeRadius: 0
---- !u!4 &187435134 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4146805414611216, guid: 168dc0060e9638f44aa44c3ea4e934a8,
-    type: 2}
-  m_PrefabInternal: {fileID: 540734309}
 --- !u!1 &365699801
 GameObject:
   m_ObjectHideFlags: 0
@@ -449,49 +444,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 168dc0060e9638f44aa44c3ea4e934a8, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &711764531
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 711764532}
-  - component: {fileID: 711764533}
-  m_Layer: 16
-  m_Name: ShadowBallSpawner
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &711764532
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 711764531}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.376, y: 0.367, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 187435134}
-  m_RootOrder: 43
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &711764533
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 711764531}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92fcc689a01d85e44a0e4d7a72f0c85f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WasFacingRight: 0
-  SpawnOffset: {x: 0, y: 0, z: 0}
-  Projectile: {fileID: 1903494616271634, guid: 4bdbd6506bde97c41ad24bf3153c2a8d, type: 2}
 --- !u!1001 &862793931
 Prefab:
   m_ObjectHideFlags: 0

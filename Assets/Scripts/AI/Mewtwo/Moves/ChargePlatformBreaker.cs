@@ -23,7 +23,6 @@ public class ChargePlatformBreaker : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log(LayerMask.LayerToName(other.gameObject.layer));
         if(other.gameObject.layer == LayerMask.NameToLayer("Platform") ||
            other.gameObject.layer == LayerMask.NameToLayer("PokeStop"))
         {
