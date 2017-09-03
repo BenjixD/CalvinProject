@@ -4,16 +4,42 @@ using UnityEngine;
 
 public class MeteorController : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
+    #region Public Members
+    public GameObject Meteor;
+    public float SpawnCooldown;
+    public float CooldownDifferenceRange;       // Must not be more than SpawnCooldown.
+    #endregion
 
-        //TODO: only spawn meteors if Mewtwo is 50% hp
+    #region Private Members
+    private BoxCollider2D m_box;
+    private float m_maxWidthOffset = 6f;
+    #endregion
 
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    // Use this for initialization
+    void Start () {
+
+        m_box = GetComponent<BoxCollider2D>();
+
+        // TODO: only spawn meteors if Mewtwo is 50% hp or something
+
+        StartCoroutine(SpawnMeteor());
+    }
+
+    #region Helper Functions
+    Vector3 choosePoint()
+    {
+        return new Vector3(transform.position.x + Random.Range(-m_maxWidthOffset, m_maxWidthOffset), transform.position.y, 0);
+    }
+    #endregion
+
+    #region Coroutines
+    IEnumerator SpawnMeteor()
+    {
+        for (;;)
+        {
+            Instantiate(Meteor, choosePoint(), Quaternion.identity);
+            yield return new WaitForSeconds(SpawnCooldown + Random.Range(-CooldownDifferenceRange, CooldownDifferenceRange));
+        }
+    }
+    #endregion
 }

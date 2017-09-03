@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlatformController : MonoBehaviour {
 
     #region Public Members
+    public GameObject Player;
     public GameObject[] PlatformLayouts;
     public float TranslucentPlatformAlpha;
     public float TranslucentWaitTime;
@@ -15,6 +16,8 @@ public class PlatformController : MonoBehaviour {
 
     public float LayoutFadeDuration;
     public float DeactivateCollidersDelay;          // How long the platforms' colliders persist as they fade.
+
+    public float PokestopSpawnProbability;          // Chance that an individual Pokestop will spawn.
     #endregion
 
     #region Private Members
@@ -43,7 +46,8 @@ public class PlatformController : MonoBehaviour {
 
     void PrepareLayout(GameObject layout)
     {
-        foreach (SpriteRenderer renderer in layout.GetComponentsInChildren<SpriteRenderer>())
+        ChoosePokestops();
+        foreach (SpriteRenderer renderer in layout.GetComponentsInChildren<SpriteRenderer>(true))
         {
             renderer.color = new Color(1f, 1f, 1f, TranslucentPlatformAlpha);
         }
@@ -52,21 +56,74 @@ public class PlatformController : MonoBehaviour {
 
     void DeactivateLayoutColliders(GameObject layout)
     {
-        foreach (EdgeCollider2D collider in layout.GetComponentsInChildren<EdgeCollider2D>())
+        foreach (Transform platform in layout.GetComponentsInChildren<Transform>())
         {
-            collider.enabled = false;
+            if (platform.GetComponent<EdgeCollider2D>() != null)
+            {
+                platform.GetComponent<EdgeCollider2D>().enabled = false;
+            }
+            // Disable Pokestop colliders
+            if (platform.GetComponent<CircleCollider2D>() != null)
+            {
+                platform.GetComponent<CircleCollider2D>().enabled = false;
+            }
+            if (platform.GetComponent<BoxCollider2D>() != null)
+            {
+                platform.GetComponent<BoxCollider2D>().enabled = false;
+            }
         }
     }
 
     void ActivateLayout(GameObject layout)
     {
-        foreach (SpriteRenderer renderer in layout.GetComponentsInChildren<SpriteRenderer>())
+        foreach (SpriteRenderer renderer in layout.GetComponentsInChildren<SpriteRenderer>(true))
         {
             renderer.color = new Color(1f, 1f, 1f, 1f);
         }
-        foreach (EdgeCollider2D collider in layout.GetComponentsInChildren<EdgeCollider2D>())
+        foreach (Transform platform in layout.GetComponentsInChildren<Transform>())
         {
-            collider.enabled = true;
+            if (platform.GetComponent<EdgeCollider2D>() != null)
+            {
+                platform.GetComponent<EdgeCollider2D>().enabled = true;
+            }
+            // Enable Pokestop colliders
+            if (platform.GetComponent<CircleCollider2D>() != null)
+            {
+                platform.GetComponent<CircleCollider2D>().enabled = true;
+            }
+            if (platform.GetComponent<BoxCollider2D>() != null)
+            {
+                platform.GetComponent<BoxCollider2D>().enabled = true;
+            }
+        }
+        SetPokestopsKinematic(false);
+    }
+
+    void ChoosePokestops()
+    {
+        foreach (Transform platform in m_currentLayout.transform)
+        {
+            foreach (Transform stop in platform)
+            {
+                if (Random.Range(0f, 1f) < PokestopSpawnProbability)
+                {
+                    stop.GetComponent<Rigidbody2D>().isKinematic = true;
+                    stop.GetComponent<PokestopBehaviour>().SetPlayerReference(Player);
+                    stop.gameObject.SetActive(true);
+                }
+            }
+        }
+    }
+
+    // Change Pokestops' Kinematic to prevent them from falling to the ground when platforms disappear
+    void SetPokestopsKinematic(bool setTo)
+    {
+        foreach (Transform platform in m_currentLayout.transform)
+        {
+            if (platform.name == "PokestopObject")
+            {
+                platform.GetComponent<Rigidbody2D>().isKinematic = setTo;
+            }
         }
     }
     #endregion
@@ -104,10 +161,16 @@ public class PlatformController : MonoBehaviour {
             float t = (Time.time - m_fadeStartTime) / LayoutFadeDuration;
             foreach (SpriteRenderer renderer in m_currentLayout.GetComponentsInChildren<SpriteRenderer>(true))
             {
-                renderer.color = new Color(1f, 1f, 1f, 1 - Mathf.SmoothStep(m_minAlpha, m_maxAlpha, t));
+                // Ignore alpha chance if the current alpha is already less than what you want to change it to
+                float newAlpha = 1 - Mathf.SmoothStep(m_minAlpha, m_maxAlpha, t);
+                if (renderer.color.a > newAlpha)
+                {
+                    renderer.color = new Color(1f, 1f, 1f, newAlpha);
+                }
             }
             if (t >= DeactivateCollidersDelay)
             {
+                SetPokestopsKinematic(true);
                 DeactivateLayoutColliders(m_currentLayout);
             }
             if (t >= m_smoothStepDuration)

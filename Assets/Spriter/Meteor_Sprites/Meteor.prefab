@@ -162,7 +162,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1733756288635094}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.05, y: 2.583, z: 0}
+  m_LocalPosition: {x: -0.029, y: 3.557, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4728407195567158}
@@ -568,6 +568,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Explosion: {fileID: 1076121469163310, guid: 81ebfd88870ed774a85bddea6fe2b3fe, type: 2}
   ExplosionSpawn: {fileID: 4660298743851168}
+  FallVelocity: 3
+  MaxHorizontalVelocity: 7
 --- !u!212 &212007898226080700
 SpriteRenderer:
   m_ObjectHideFlags: 1

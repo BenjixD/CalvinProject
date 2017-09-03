@@ -8,6 +8,7 @@ public class PokestopBehaviour : MonoBehaviour {
     public GameObject BlueStop;
     public GameObject PurpleStop;
     public float FadeDuration;
+
     public GameObject Player;
 
     public int NumAmmoTypes;
@@ -37,6 +38,11 @@ public class PokestopBehaviour : MonoBehaviour {
 	}
 
     #region Helper Functions
+    public void SetPlayerReference(GameObject player)
+    {
+        Player = player;
+    }
+
     private void SpinningAnim()
     {
         foreach (Transform child in BlueStop.transform)
@@ -91,6 +97,7 @@ public class PokestopBehaviour : MonoBehaviour {
             }
             if (t >= m_smoothStepDuration)
             {
+                BlueStop.SetActive(false);
                 yield break;
             }
             yield return null;
