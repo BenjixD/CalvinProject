@@ -333,6 +333,7 @@ public class AIBehaviour : MonoBehaviour {
             if(move.Key > score)
             {
                 bestMove = move.Value;
+                score = move.Key;
             }
         }
         return bestMove;
