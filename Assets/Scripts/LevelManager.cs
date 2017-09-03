@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour {
 
-    public GameObject Calvin;
+    public GameObject Calvin, Mewtwo;
 
 	// Use this for initialization
 	void Start () {
@@ -15,8 +15,10 @@ public class LevelManager : MonoBehaviour {
 	void Update () {
 		if (!Calvin)
         {
-            StartCoroutine(ReturnAfterSeconds(8f, 0));
+            StartCoroutine(ReturnAfterSeconds(2f, 0));
         }
+        if (!Mewtwo)
+            StartCoroutine(ReturnAfterSeconds(2f, 2));
 	}
 
     IEnumerator ReturnAfterSeconds(float s, int scene)
