@@ -10,4 +10,8 @@ public interface IPlayer
     bool Attacking { get; }
 
     GameObject GetObject { get; }
+
+    void StunPlayer(float stunLength);
+    void InvinciblePlayer(float invincibleLength);
+    void KnockbackPlayer(Vector3 knockback);
 }

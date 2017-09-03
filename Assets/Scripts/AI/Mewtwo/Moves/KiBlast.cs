@@ -21,7 +21,7 @@ public class KiBlast : Skill
         m_remainingCooldown = 0f;
 
         m_castTime = 0.6f;
-        m_defaultCooldown = 2f;
+        m_defaultCooldown = 6f;
     }
     #endregion
 

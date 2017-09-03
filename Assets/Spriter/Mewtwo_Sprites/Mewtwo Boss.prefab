@@ -89,6 +89,7 @@ GameObject:
   - component: {fileID: 61400372883095370}
   - component: {fileID: 114386295198293902}
   - component: {fileID: 114454391911162062}
+  - component: {fileID: 114722532253611016}
   m_Layer: 16
   m_Name: Mewtwo
   m_TagString: Untagged
@@ -1356,7 +1357,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1173253208772148}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: a362acfadeda20540a2e3074d65f2909, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1545,6 +1546,18 @@ MonoBehaviour:
   StartHitBox: 0.1
   HitBoxDuration: 0.4
   DelayDeactivate: 0.1
+--- !u!114 &114722532253611016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1160715716278500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e8f92b6b514325449330b784a24fb9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHealth: 1000
 --- !u!114 &114814048876756368
 MonoBehaviour:
   m_ObjectHideFlags: 1
