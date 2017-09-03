@@ -6,23 +6,21 @@ public class MeteorController : MonoBehaviour {
 
     #region Public Members
     public GameObject Meteor;
+    public GameObject Boss;
     public float SpawnCooldown;
     public float CooldownDifferenceRange;       // Must not be more than SpawnCooldown.
+    public float HealthPercentActivation;
     #endregion
 
     #region Private Members
     private BoxCollider2D m_box;
     private float m_maxWidthOffset = 6f;
+    private float m_waitCheck = 10f;
     #endregion
 
     // Use this for initialization
     void Start () {
-
         m_box = GetComponent<BoxCollider2D>();
-
-        // TODO: only spawn meteors if Mewtwo is 50% hp or something
-
-        StartCoroutine(SpawnMeteor());
     }
 
     #region Helper Functions
@@ -33,7 +31,17 @@ public class MeteorController : MonoBehaviour {
     #endregion
 
     #region Coroutines
-    IEnumerator SpawnMeteor()
+    IEnumerator WatchBossHealth()
+    {
+        if (Boss.GetComponent<Health>().CurrentHealth / Boss.GetComponent<Health>().MaxHealth < HealthPercentActivation)
+        {
+            StartCoroutine(SpawnMeteors());
+            yield break;
+        }
+        yield return new WaitForSeconds(m_waitCheck);
+    }
+
+    IEnumerator SpawnMeteors()
     {
         for (;;)
         {

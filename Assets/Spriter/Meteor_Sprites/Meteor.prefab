@@ -567,6 +567,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Explosion: {fileID: 1076121469163310, guid: 81ebfd88870ed774a85bddea6fe2b3fe, type: 2}
+  PersistentTime: 10
   ExplosionSpawn: {fileID: 4660298743851168}
   FallVelocity: 3
   MaxHorizontalVelocity: 7

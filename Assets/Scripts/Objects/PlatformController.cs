@@ -143,8 +143,6 @@ public class PlatformController : MonoBehaviour {
 
     IEnumerator SpawnPlatformLayout(int layoutIndex)
     {
-        Debug.Log("Begin Spawn");
-
         m_currentLayout = Instantiate(PlatformLayouts[layoutIndex]);
         PrepareLayout(m_currentLayout);
         yield return new WaitForSeconds(TranslucentWaitTime);
@@ -154,8 +152,6 @@ public class PlatformController : MonoBehaviour {
 
     IEnumerator FadeOutPlatformLayout()
     {
-        Debug.Log("Begin Fadeout");
-
         for (;;)
         {
             float t = (Time.time - m_fadeStartTime) / LayoutFadeDuration;
