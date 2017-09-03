@@ -235,7 +235,7 @@ public class AIBehaviour : MonoBehaviour {
     }
 
     //Intent Manager Functions
-    protected void ChangeState()
+    protected virtual void ChangeState()
     {
         if(m_target == null)
         {

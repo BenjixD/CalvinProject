@@ -142,7 +142,7 @@ public class Walk : Skill
     public override void InitAttack(Action<bool> action = null)
     {
         //Random the Cast Time
-        m_castTime = UnityEngine.Random.Range(1f, 1.5f);
+        m_castTime = UnityEngine.Random.Range(0.5f, 1f);
 
         //Face the Player when using Skill
         FacePlayer();
@@ -152,6 +152,9 @@ public class Walk : Skill
 
         //Put move on cooldown
         PutOnCooldown();
+
+        //Delegate Action to Mewtwo (DO NOT CHANGE EFFECTIVENESS FROM 50)
+        //m_reference.DelegateOperation = action;
     }
     #endregion
 }

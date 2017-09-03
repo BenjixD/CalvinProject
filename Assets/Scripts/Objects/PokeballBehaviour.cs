@@ -11,6 +11,7 @@ public class PokeballBehaviour : MonoBehaviour, IBullet
     public float PersistentTime;
     public float ProjectileSpeed;
     public GameObject HitObject;
+    public float Damage;
     #endregion
 
     #region Private Members
@@ -84,10 +85,17 @@ public class PokeballBehaviour : MonoBehaviour, IBullet
         m_direction = direction;
     }
 
+    void DealDamageAndStatus(GameObject other)
+    {
+        other.GetComponent<Health>().DealDamage(Damage);
+    }
+
     public void OnHit(GameObject other)
     {
         //Deal Effects to other GameObject
+        DealDamageAndStatus(other);
 
+        //Spawn Hit anim
         Instantiate(HitObject, transform.position, transform.rotation);
         Destroy(gameObject);
     }

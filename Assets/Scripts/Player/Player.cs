@@ -270,7 +270,6 @@ public class Player : MonoBehaviour, IPlayer {
     public void KnockbackPlayer(Vector3 knockBack)
     {
         m_playerRB.velocity = new Vector2(knockBack.x, knockBack.y);
-        Debug.Log(m_playerRB.velocity.x);
     }
     #endregion
 

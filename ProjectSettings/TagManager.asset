@@ -23,12 +23,12 @@ TagManager:
   - CameraBottom
   - Enemy
   - GroundInteractor
-  - 
+  - EnemyAttack
   - Pokeballs
   - 
   - Platform
   - 
-  - 
+  - Meteor
   - 
   - 
   - 

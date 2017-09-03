@@ -62,7 +62,27 @@
         <file id="58" name="22.png" width="49" height="56" pivot_x="0" pivot_y="1"/>
     </folder>
     <entity id="0" name="Mewtwo">
-        <animation id="0" name="Start Charging Ball" length="800" interval="100">
+        <animation id="0" name="Shoot" length="100" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="100">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="53_001">
+                <key id="0" spin="0">
+                    <object folder="0" file="29" x="6" y="-4" angle="0" scale_x="1.5" scale_y="1.5"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="53_002">
+                <key id="0" time="100" spin="0">
+                    <object folder="0" file="29" x="6" y="-4" angle="0" scale_x="1.5" scale_y="1.5"/>
+                </key>
+            </timeline>
+        </animation>
+        <animation id="1" name="Start Charging Ball" length="800" interval="100">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
@@ -136,7 +156,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="1" name="Disable" length="500" interval="100">
+        <animation id="2" name="Disable" length="500" interval="100">
             <mainline>
                 <key id="0" curve_type="instant">
                     <object_ref id="0" timeline="5" key="0" z_index="0"/>
@@ -188,7 +208,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="2" name="Teleport Disappear" length="700" interval="100">
+        <animation id="3" name="Teleport Disappear" length="700" interval="100">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
@@ -242,7 +262,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="3" name="Teleport Reappear" length="700" interval="100">
+        <animation id="4" name="Teleport Reappear" length="700" interval="100">
             <mainline>
                 <key id="0" curve_type="instant">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
@@ -296,7 +316,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="4" name="Stand" length="900" interval="100">
+        <animation id="5" name="Stand" length="900" interval="100">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
@@ -362,7 +382,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="5" name="Fire Ball" length="200" interval="100">
+        <animation id="6" name="Fire Ball" length="200" interval="100">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>
@@ -396,7 +416,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="6" name="Fire Ki Blast" length="500" interval="100">
+        <animation id="7" name="Fire Ki Blast" length="500" interval="100">
             <mainline>
                 <key id="0" curve_type="instant">
                     <object_ref id="0" timeline="4" key="0" z_index="0"/>
@@ -440,7 +460,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="7" name="Hold Ball" length="300" interval="100">
+        <animation id="8" name="Hold Ball" length="300" interval="100">
             <mainline>
                 <key id="0">
                     <object_ref id="0" timeline="1" key="0" z_index="0"/>
@@ -474,7 +494,7 @@
                 </key>
             </timeline>
         </animation>
-        <animation id="8" name="Melee Attack" length="600" interval="100">
+        <animation id="9" name="Melee Attack" length="600" interval="100">
             <mainline>
                 <key id="0" curve_type="instant">
                     <object_ref id="0" timeline="0" key="0" z_index="0"/>

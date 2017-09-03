@@ -68,6 +68,12 @@ public class MewtwoConfig : IBossConfig
 
         Move kiBlast = new Move(new KiBlast(Instance));
         attackInt.Moveset.Add(kiBlast);
+
+        Move chargeShadowBall = new Move(new ChargeShadowBall(Instance));
+        attackInt.Moveset.Add(chargeShadowBall);
+
+        Move shadowBall = new Move(new ShadowBall(Instance));
+        attackInt.Moveset.Add(shadowBall);
     }
 
     private void SetAvoidMoves(IntentIndex avoidInt)
