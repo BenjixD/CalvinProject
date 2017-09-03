@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Mewtwo : AIBehaviour {
     #region Public Members
@@ -54,10 +55,14 @@ public class Mewtwo : AIBehaviour {
         StartCoroutine("PerformMove");
         StartCoroutine("DecrementCooldowns");
 	}
-	
-	// Update is called once per frame
-	void Update ()
+
+    // Update is called once per frame
+    void Update()
     {
+        if (m_life.CurrentHealth < 0)
+        {
+
+        }
         HandleFlip();
 	}
 
