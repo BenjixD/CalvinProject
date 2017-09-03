@@ -52,6 +52,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1db4e0652b6dcb4c86d18f28e1b99ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 0}
   PlatformLayouts:
   - {fileID: 1103403500542040, guid: d5ab504105b8ea74e8780fdd1b9ed64f, type: 2}
   - {fileID: 1314965970519112, guid: 4ab7ba06392a25342820fa788ef0c5a1, type: 2}
@@ -60,10 +61,11 @@ MonoBehaviour:
   - {fileID: 1741502111315256, guid: d112d17b757d2ad42878a7cf4c8f208e, type: 2}
   TranslucentPlatformAlpha: 0.65
   TranslucentWaitTime: 2
-  LayoutDuration: 10
-  LayoutlessDuration: 5.25
+  LayoutDuration: 20
+  LayoutlessDuration: 10
   LayoutFadeDuration: 5
   DeactivateCollidersDelay: 0.7
+  PokestopSpawnProbability: 0.3
 --- !u!114 &114941752279791860
 MonoBehaviour:
   m_ObjectHideFlags: 1

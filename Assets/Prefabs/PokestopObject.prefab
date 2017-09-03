@@ -423,7 +423,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4149042487213000}
-  - component: {fileID: 50340478186632060}
   m_Layer: 11
   m_Name: PokeStopBlueObject
   m_TagString: Untagged
@@ -439,7 +438,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4257701116324322}
-  - component: {fileID: 50099548278248190}
   m_Layer: 11
   m_Name: PokeStopPurpleObject
   m_TagString: Untagged
@@ -569,6 +567,7 @@ GameObject:
   - component: {fileID: 4680863579162192}
   - component: {fileID: 61921793484468700}
   - component: {fileID: 58474291971329530}
+  - component: {fileID: 50103174074991478}
   - component: {fileID: 114929477426439048}
   m_Layer: 0
   m_Name: PokestopObject
@@ -1326,7 +1325,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1586020007878582}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.571, y: -0.795, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4149042487213000}
@@ -1486,33 +1485,13 @@ Transform:
   m_Father: {fileID: 4660815000540548}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &50099548278248190
+--- !u!50 &50103174074991478
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1508635706968472}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1.25
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
---- !u!50 &50340478186632060
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1494908667320590}
+  m_GameObject: {fileID: 1586020007878582}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -1750,7 +1729,7 @@ MonoBehaviour:
   BlueStop: {fileID: 1494908667320590}
   PurpleStop: {fileID: 1508635706968472}
   FadeDuration: 1.5
-  Player: {fileID: 1974152619908420, guid: b29db4212dd8d8f478ad3a0090d6feb9, type: 2}
+  Player: {fileID: 0}
   NumAmmoTypes: 3
   NumThrows: 4
   AmmoRarity:
