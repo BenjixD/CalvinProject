@@ -72,6 +72,7 @@ public class PokestopBehaviour : MonoBehaviour {
     private void GrantItems()
     {
         GrantRandomAmmo(NumThrows * GetRandomMultiplier());
+        Player.GetComponent<Health>().DealDamage(-10);
     }
 
     public void GrantRandomAmmo(int totalAmmo)

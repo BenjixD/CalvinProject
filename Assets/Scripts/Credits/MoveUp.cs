@@ -14,5 +14,10 @@ public class MoveUp : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         transform.position += new Vector3(0, speed, 0);
+
+        if(transform.position.y >= 9.6f)
+        {
+            this.enabled = false;
+        }
 	}
 }

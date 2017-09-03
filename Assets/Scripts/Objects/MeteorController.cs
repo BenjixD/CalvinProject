@@ -16,11 +16,13 @@ public class MeteorController : MonoBehaviour {
     private BoxCollider2D m_box;
     private float m_maxWidthOffset = 6f;
     private float m_waitCheck = 10f;
+    private float m_meteorCheckWarmupTime = 3f;
     #endregion
 
     // Use this for initialization
     void Start () {
         m_box = GetComponent<BoxCollider2D>();
+        StartCoroutine("WatchBossHealth");
     }
 
     #region Helper Functions
@@ -33,12 +35,16 @@ public class MeteorController : MonoBehaviour {
     #region Coroutines
     IEnumerator WatchBossHealth()
     {
-        if (Boss.GetComponent<Health>().CurrentHealth / Boss.GetComponent<Health>().MaxHealth < HealthPercentActivation)
+        yield return new WaitForSeconds(m_meteorCheckWarmupTime);
+        for (;;)
         {
-            StartCoroutine(SpawnMeteors());
-            yield break;
+            if (Boss.GetComponent<Health>().CurrentHealth / Boss.GetComponent<Health>().MaxHealth <  HealthPercentActivation / 100)
+            {
+                StartCoroutine(SpawnMeteors());
+                yield break;
+            }
+            yield return new WaitForSeconds(m_waitCheck);
         }
-        yield return new WaitForSeconds(m_waitCheck);
     }
 
     IEnumerator SpawnMeteors()

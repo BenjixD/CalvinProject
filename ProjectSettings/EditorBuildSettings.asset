@@ -6,8 +6,5 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/menu.unity
-    guid: c4fe4f261c3d5324391b84d52bbdb3c0
-  - enabled: 1
-    path: Assets/Scenes/BossSceneMewtwo.unity
-    guid: 48c355ef4ce85a44aa3b471b73db4577
+    path: Assets/Scenes/Credits.unity
+    guid: 7126743955bf9d04f8a68f6226758b7b
