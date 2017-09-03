@@ -108,8 +108,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Meteor: {fileID: 1733756288635094, guid: 2432bffb43647d04ab44ba1f136532a9, type: 2}
+  Boss: {fileID: 0}
   SpawnCooldown: 5
   CooldownDifferenceRange: 2.5
+  HealthPercentActivation: 0
 --- !u!114 &114854448931713928
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -131,7 +133,7 @@ MonoBehaviour:
   TranslucentPlatformAlpha: 0.65
   TranslucentWaitTime: 2
   LayoutDuration: 20
-  LayoutlessDuration: 8
+  LayoutlessDuration: 15
   LayoutFadeDuration: 5
   DeactivateCollidersDelay: 0.7
   PokestopSpawnProbability: 0.3
