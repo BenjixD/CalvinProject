@@ -1546,6 +1546,9 @@ MonoBehaviour:
   StartHitBox: 0.1
   HitBoxDuration: 0.4
   DelayDeactivate: 0.1
+  StunLength: 0
+  Damage: 0
+  Knockback: {x: 0, y: 0, z: 0}
 --- !u!114 &114722532253611016
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1572,6 +1575,9 @@ MonoBehaviour:
   StartHitBox: 0.1
   HitBoxDuration: 0.3
   DelayDeactivate: 0.1
+  StunLength: 0
+  Damage: 0
+  stunhitsfx: {fileID: 0}
 --- !u!114 &114973193580109610
 MonoBehaviour:
   m_ObjectHideFlags: 1

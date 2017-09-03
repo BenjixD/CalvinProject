@@ -15,6 +15,8 @@ public class DisableMoveHitBox : MonoBehaviour {
     public float StunLength;
     public float Damage;
 
+    public AudioSource stunhitsfx;
+
     private bool isHit;
 
 	// Use this for initialization
@@ -44,6 +46,7 @@ public class DisableMoveHitBox : MonoBehaviour {
         if(other.gameObject.layer.Equals(LayerMask.NameToLayer("Player")))
         {
             DealDamageAndStatus(other.gameObject);
+            stunhitsfx.Play();
             isHit = true;
         }
     }
