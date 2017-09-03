@@ -17,6 +17,8 @@ public class PokestopBehaviour : MonoBehaviour {
     public float AmmoRandomness;
     public float AmmoGrantMinMultiplier;
     public float AmmoGrantMaxMultiplier;
+
+    public AudioSource refillSFX;
     #endregion
 
     #region Private Members
@@ -117,6 +119,7 @@ public class PokestopBehaviour : MonoBehaviour {
                 m_startTime = Time.time;
                 StartCoroutine("FadeToPurple");
                 GrantItems();
+                refillSFX.Play();
             }
         }
     }

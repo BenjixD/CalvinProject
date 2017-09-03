@@ -982,6 +982,7 @@ MonoBehaviour:
   AmmoRandomness: 0
   AmmoGrantMinMultiplier: 0
   AmmoGrantMaxMultiplier: 0
+  refillSFX: {fileID: 82593244758389636}
 --- !u!212 &212015356579222806
 SpriteRenderer:
   m_ObjectHideFlags: 1
