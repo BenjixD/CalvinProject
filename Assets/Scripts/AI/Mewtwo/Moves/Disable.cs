@@ -20,7 +20,7 @@ public class Disable : Skill
         m_remainingCooldown = 0f;
 
         m_castTime = 0.5f;
-        m_defaultCooldown = 1f;
+        m_defaultCooldown = 2.5f;
     }
     #endregion
 

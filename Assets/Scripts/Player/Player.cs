@@ -121,7 +121,10 @@ public class Player : MonoBehaviour, IPlayer {
 
         //Handle Movement
         m_grounded = IsGrounded();
-        m_playerRB.velocity = CalculateMovement(m_direction, m_jump);
+        if(!m_stunned)
+        {
+            m_playerRB.velocity = CalculateMovement(m_direction, m_jump);
+        }
     }
 
     void FixedUpdate()
@@ -263,6 +266,12 @@ public class Player : MonoBehaviour, IPlayer {
     {
         StartCoroutine(Invincible(invincibleLength));
     }
+
+    public void KnockbackPlayer(Vector3 knockBack)
+    {
+        m_playerRB.velocity = new Vector2(knockBack.x, knockBack.y);
+        Debug.Log(m_playerRB.velocity.x);
+    }
     #endregion
 
     #region Coroutines
@@ -279,6 +288,12 @@ public class Player : MonoBehaviour, IPlayer {
     IEnumerator Stun(float stunLength)
     {
         m_stunned = true;
+
+        if (m_grounded)
+        {
+            m_playerRB.velocity = new Vector2(0, m_playerRB.velocity.y);
+        }
+
         StunObject.SetActive(true);
         yield return new WaitForSeconds(stunLength);
         m_stunned = false;

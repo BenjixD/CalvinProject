@@ -20,7 +20,7 @@ public class Melee : Skill
         m_remainingCooldown = 0f;
 
         m_castTime = 0.6f;
-        m_defaultCooldown = 1f;
+        m_defaultCooldown = 4f;
     }
     #endregion
 
