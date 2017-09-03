@@ -111,7 +111,7 @@ MonoBehaviour:
   Boss: {fileID: 0}
   SpawnCooldown: 5
   CooldownDifferenceRange: 2.5
-  HealthPercentActivation: 0
+  HealthPercentActivation: 50
 --- !u!114 &114854448931713928
 MonoBehaviour:
   m_ObjectHideFlags: 1
