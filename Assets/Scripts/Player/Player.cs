@@ -182,6 +182,13 @@ public class Player : MonoBehaviour, IPlayer {
 
     float HandleJump()
     {
+        //Pass through platform
+        if((Input.GetButtonDown("Down") || Input.GetAxisRaw("Down") < 0) && Input.GetButtonDown("Vertical") && !m_stunned)
+        {
+            StartCoroutine(DontInteractWithPlatform());
+            return 0.0f;
+        }
+
         float val = (Input.GetButtonDown("Vertical") && !m_stunned) ? 1.0f : 0.0f;
 
         if (IsGrounded())
@@ -360,6 +367,14 @@ public class Player : MonoBehaviour, IPlayer {
 
         m_invincible = false;
 
+        yield return null;
+    }
+
+    IEnumerator DontInteractWithPlatform()
+    {
+        gameObject.layer = LayerMask.NameToLayer("NonPlatformInteractor");
+        yield return new WaitForSeconds(0.35f);
+        gameObject.layer = LayerMask.NameToLayer("Player");
         yield return null;
     }
     #endregion
