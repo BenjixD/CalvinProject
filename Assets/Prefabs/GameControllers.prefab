@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4099640008285576}
   - component: {fileID: 114854448931713928}
+  - component: {fileID: 114941752279791860}
   m_Layer: 0
   m_Name: GameControllers
   m_TagString: Untagged
@@ -59,3 +60,18 @@ MonoBehaviour:
   - {fileID: 1741502111315256, guid: d112d17b757d2ad42878a7cf4c8f208e, type: 2}
   TranslucentPlatformAlpha: 0.65
   TranslucentWaitTime: 2
+  LayoutDuration: 10
+  LayoutlessDuration: 5.25
+  LayoutFadeDuration: 5
+  DeactivateCollidersDelay: 0.7
+--- !u!114 &114941752279791860
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1938345042018842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c80efd06e21b3046882546f70125ece, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
