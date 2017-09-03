@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1938345042018842}
+  m_IsPrefabParent: 1
+--- !u!1 &1938345042018842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4099640008285576}
+  - component: {fileID: 114854448931713928}
+  m_Layer: 0
+  m_Name: GameControllers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4099640008285576
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1938345042018842}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114854448931713928
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1938345042018842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1db4e0652b6dcb4c86d18f28e1b99ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlatformLayouts:
+  - {fileID: 1103403500542040, guid: d5ab504105b8ea74e8780fdd1b9ed64f, type: 2}
+  - {fileID: 1314965970519112, guid: 4ab7ba06392a25342820fa788ef0c5a1, type: 2}
+  - {fileID: 1628800878220004, guid: ad6a1d62bd3947642bffc011760e3fe0, type: 2}
+  - {fileID: 1697811697794556, guid: fdd365fbf64e54e44ac84e4b0a4aa597, type: 2}
+  - {fileID: 1741502111315256, guid: d112d17b757d2ad42878a7cf4c8f208e, type: 2}
+  TranslucentPlatformAlpha: 0.65
+  TranslucentWaitTime: 2

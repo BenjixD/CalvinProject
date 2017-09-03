@@ -61,4 +61,8 @@ public class AmmoInventory : MonoBehaviour, IAmmo
     }
     #endregion
 
+    public void AddAmmo(int typeIndex, int additionalAmmo)
+    {
+        m_inventory[AmmoTypes[typeIndex]] = new Supply(AmmoTypes[typeIndex], m_inventory[AmmoTypes[typeIndex]].Inventory + additionalAmmo);
+    }
 }
