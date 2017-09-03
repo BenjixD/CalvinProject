@@ -7,6 +7,7 @@ public class Player : MonoBehaviour, IPlayer {
     #region Public Members
     // Change to proper ground layer number if needed
     public LayerMask groundLayer;
+    public LayerMask platformLayer;
     public float horizontalSpd;
     public float verticalSpd;
     public float flashJumpSpd;
@@ -105,7 +106,7 @@ public class Player : MonoBehaviour, IPlayer {
         m_basicAttack = GetComponent<MultiThrow>();
 
         CurrentJumpingState = JumpingState.Grounded;
-        distToGround = GetComponent<BoxCollider2D>().bounds.extents.y - GetComponent<BoxCollider2D>().offset.y/2;
+        distToGround = GetComponent<BoxCollider2D>().bounds.extents.y - GetComponent<BoxCollider2D>().offset.y/2 - 0.1f;
 
         m_facingRight = false;
         m_currentlyAttacking = false;
@@ -155,7 +156,7 @@ public class Player : MonoBehaviour, IPlayer {
     // Checks if on ground through Raycast. Also changes drag
     bool IsGrounded()
     {
-        bool res = Physics2D.Raycast(transform.position, -Vector2.up, distance: distToGround, layerMask: groundLayer.value);
+        bool res = Physics2D.Raycast(transform.position, -Vector2.up, distance: distToGround, layerMask: groundLayer | platformLayer);
         return res;
     }
 
@@ -181,6 +182,13 @@ public class Player : MonoBehaviour, IPlayer {
 
     float HandleJump()
     {
+        //Pass through platform
+        if((Input.GetButtonDown("Down") || Input.GetAxisRaw("Down") < 0) && Input.GetButtonDown("Vertical") && !m_stunned)
+        {
+            StartCoroutine(DontInteractWithPlatform());
+            return 0.0f;
+        }
+
         float val = (Input.GetButtonDown("Vertical") && !m_stunned) ? 1.0f : 0.0f;
 
         if (IsGrounded())
@@ -359,6 +367,14 @@ public class Player : MonoBehaviour, IPlayer {
 
         m_invincible = false;
 
+        yield return null;
+    }
+
+    IEnumerator DontInteractWithPlatform()
+    {
+        gameObject.layer = LayerMask.NameToLayer("NonPlatformInteractor");
+        yield return new WaitForSeconds(0.35f);
+        gameObject.layer = LayerMask.NameToLayer("Player");
         yield return null;
     }
     #endregion

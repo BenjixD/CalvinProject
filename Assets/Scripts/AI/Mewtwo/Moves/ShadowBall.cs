@@ -9,7 +9,7 @@ public class ShadowBall : Skill
     private Mewtwo m_reference;
     private Animator m_animator;
 
-    private Vector3 m_colliderOffset = new Vector3(6f, 0.3f, 0f);
+    private Vector3 m_colliderOffset = new Vector3(6f, 0.4f, 0f);
     #endregion
 
     #region Constructor#

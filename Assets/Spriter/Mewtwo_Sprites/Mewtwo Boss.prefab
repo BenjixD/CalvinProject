@@ -926,7 +926,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1894657255995296}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.74, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4193075149770070}
@@ -1074,7 +1074,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1748083768418858}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.74, y: -1.16, z: 0}
+  m_LocalPosition: {x: -1.57, y: -3.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4699192828795868}
@@ -1977,7 +1977,7 @@ MonoBehaviour:
   TeleportRadius: 4
   LeftWall: {fileID: 0}
   RightWall: {fileID: 0}
-  PlatformInfluence: 0.05
+  PlatformInfluence: 0.01
   TeleportInfluence: 1.3
   CorneringInfluence: 2.5
   ChargedShadowBall: 0
