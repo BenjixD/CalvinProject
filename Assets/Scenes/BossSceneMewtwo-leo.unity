@@ -173,7 +173,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 10418073}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -182,7 +182,7 @@ Transform:
   - {fileID: 2121976496}
   - {fileID: 1473349123}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &10418076
 BoxCollider2D:
@@ -488,6 +488,75 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2432bffb43647d04ab44ba1f136532a9, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &540273784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 540273785}
+  - component: {fileID: 540273787}
+  - component: {fileID: 540273786}
+  m_Layer: 0
+  m_Name: MeteorSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &540273785
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 540273784}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 4.11, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 866239330}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &540273786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 540273784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c80efd06e21b3046882546f70125ece, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Meteor: {fileID: 1733756288635094, guid: 2432bffb43647d04ab44ba1f136532a9, type: 2}
+  SpawnCooldown: 5
+  CooldownDifferenceRange: 2.5
+--- !u!61 &540273787
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 540273784}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 12, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &611887330
 Prefab:
   m_ObjectHideFlags: 0
@@ -677,7 +746,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4455372857083832, guid: d5ab504105b8ea74e8780fdd1b9ed64f, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 114576628940084434, guid: d5ab504105b8ea74e8780fdd1b9ed64f,
         type: 2}
@@ -954,7 +1023,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4099640008285576, guid: 796f9c658c03ee94cb86403dfec3fc50, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 114854448931713928, guid: 796f9c658c03ee94cb86403dfec3fc50,
         type: 2}
@@ -976,9 +1045,15 @@ Prefab:
       propertyPath: PokestopSpawnProbability
       value: 0.7
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114941752279791860, guid: 796f9c658c03ee94cb86403dfec3fc50, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 796f9c658c03ee94cb86403dfec3fc50, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &866239330 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4099640008285576, guid: 796f9c658c03ee94cb86403dfec3fc50,
+    type: 2}
+  m_PrefabInternal: {fileID: 866239326}
 --- !u!4 &1258058851 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4447217636614790, guid: 2432bffb43647d04ab44ba1f136532a9,

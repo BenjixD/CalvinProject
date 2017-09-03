@@ -56,20 +56,20 @@ public class PlatformController : MonoBehaviour {
 
     void DeactivateLayoutColliders(GameObject layout)
     {
-        foreach (Transform platform in GetComponentsInChildren<Transform>())
+        foreach (Transform platform in layout.GetComponentsInChildren<Transform>())
         {
             if (platform.GetComponent<EdgeCollider2D>() != null)
             {
                 platform.GetComponent<EdgeCollider2D>().enabled = false;
             }
             // Disable Pokestop colliders
-            foreach (CircleCollider2D collider in platform)
+            if (platform.GetComponent<CircleCollider2D>() != null)
             {
-                collider.enabled = false;
+                platform.GetComponent<CircleCollider2D>().enabled = false;
             }
-            foreach (BoxCollider2D collider in platform)
+            if (platform.GetComponent<BoxCollider2D>() != null)
             {
-                collider.enabled = false;
+                platform.GetComponent<BoxCollider2D>().enabled = false;
             }
         }
     }
@@ -80,23 +80,23 @@ public class PlatformController : MonoBehaviour {
         {
             renderer.color = new Color(1f, 1f, 1f, 1f);
         }
-        foreach (Transform platform in GetComponentsInChildren<Transform>())
+        foreach (Transform platform in layout.GetComponentsInChildren<Transform>())
         {
             if (platform.GetComponent<EdgeCollider2D>() != null)
             {
                 platform.GetComponent<EdgeCollider2D>().enabled = true;
             }
             // Enable Pokestop colliders
-            foreach (CircleCollider2D collider in platform)
+            if (platform.GetComponent<CircleCollider2D>() != null)
             {
-                collider.enabled = true;
+                platform.GetComponent<CircleCollider2D>().enabled = true;
             }
-            foreach (BoxCollider2D collider in platform)
+            if (platform.GetComponent<BoxCollider2D>() != null)
             {
-                collider.enabled = true;
+                platform.GetComponent<BoxCollider2D>().enabled = true;
             }
         }
-        SetPokestopKinematic(false);
+        SetPokestopsKinematic(false);
     }
 
     void ChoosePokestops()
@@ -115,16 +115,14 @@ public class PlatformController : MonoBehaviour {
         }
     }
 
-    void SetPokestopKinematic(bool setTo)
+    // Change Pokestops' Kinematic to prevent them from falling to the ground when platforms disappear
+    void SetPokestopsKinematic(bool setTo)
     {
         foreach (Transform platform in m_currentLayout.transform)
         {
-            foreach (Transform stop in platform)
+            if (platform.name == "PokestopObject")
             {
-                if (Random.Range(0f, 1f) < PokestopSpawnProbability)
-                {
-                    stop.GetComponent<Rigidbody2D>().isKinematic = setTo;
-                }
+                platform.GetComponent<Rigidbody2D>().isKinematic = setTo;
             }
         }
     }
@@ -172,7 +170,7 @@ public class PlatformController : MonoBehaviour {
             }
             if (t >= DeactivateCollidersDelay)
             {
-                SetPokestopKinematic(true);
+                SetPokestopsKinematic(true);
                 DeactivateLayoutColliders(m_currentLayout);
             }
             if (t >= m_smoothStepDuration)
