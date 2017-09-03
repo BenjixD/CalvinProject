@@ -22,7 +22,7 @@ public class MeteorController : MonoBehaviour {
 
         // TODO: only spawn meteors if Mewtwo is 50% hp or something
 
-        StartCoroutine(SpawnMeteor());
+        StartCoroutine(SpawnMeteors());
     }
 
     #region Helper Functions
@@ -32,8 +32,8 @@ public class MeteorController : MonoBehaviour {
     }
     #endregion
 
-    #region Coroutines
-    IEnumerator SpawnMeteor()
+    #region 
+    IEnumerator SpawnMeteors()
     {
         for (;;)
         {
