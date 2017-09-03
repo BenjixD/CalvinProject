@@ -2,6 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HitEffectBehaviour : VisualEffect {
+public class MeteorExplosionBehaviour : VisualEffect {
 
 }
