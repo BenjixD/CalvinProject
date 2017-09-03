@@ -1072,6 +1072,21 @@ Prefab:
       propertyPath: Reference
       value: 
       objectReference: {fileID: 1905062171}
+    - target: {fileID: 114107452352500456, guid: 5b0be17da393c8640af8df7f5eedbf67,
+        type: 2}
+      propertyPath: Calvin
+      value: 
+      objectReference: {fileID: 1905062171}
+    - target: {fileID: 114107452352500456, guid: 5b0be17da393c8640af8df7f5eedbf67,
+        type: 2}
+      propertyPath: Mewtwo
+      value: 
+      objectReference: {fileID: 425735207}
+    - target: {fileID: 114667663577205726, guid: 5b0be17da393c8640af8df7f5eedbf67,
+        type: 2}
+      propertyPath: Calvin
+      value: 
+      objectReference: {fileID: 1905062171}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5b0be17da393c8640af8df7f5eedbf67, type: 2}
   m_IsPrefabParent: 0
