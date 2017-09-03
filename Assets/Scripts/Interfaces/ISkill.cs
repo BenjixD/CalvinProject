@@ -6,8 +6,8 @@ using System.Text;
 public interface ISkill : IAttack
 {
     float CastTime { get; }
-    float GetCooldown();
-    float GetRemainingCooldown();
+    float Cooldown { get; }
+    float RemainingCooldown { get; }
     bool IsReady();
     bool IsUsable();
 

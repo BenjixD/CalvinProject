@@ -15,6 +15,10 @@ public class Player : MonoBehaviour, IPlayer {
     //Flash Jump
     public Vector3 FlashJumpOffset;
     public GameObject FlashJumpPrefab;
+    public GameObject StunObject;
+
+    public float FlickerTimeOn;
+    public float FlickerTimeOff;
     #endregion
 
     #region Private Members
@@ -31,6 +35,9 @@ public class Player : MonoBehaviour, IPlayer {
     bool m_currentlyJumping;
     bool m_currentlyAttacking;
     bool m_triggerAttack;
+
+    bool m_stunned;
+    bool m_invincible;
     #endregion
 
     #region Properties
@@ -96,6 +103,7 @@ public class Player : MonoBehaviour, IPlayer {
         m_currentlyAttacking = false;
         m_currentlyJumping = false;
         m_triggerAttack = false;
+        m_stunned = false;
     }
 	
 	// Update is called once per frame
@@ -106,14 +114,17 @@ public class Player : MonoBehaviour, IPlayer {
         //Handledirectional Input
         float m_jump = HandleJump();
         m_jump = m_jump > 0 ? m_jump : m_playerRB.velocity.y/verticalSpd;
-        m_direction = Input.GetAxisRaw("Horizontal");
+        m_direction = m_stunned? 0.0f : Input.GetAxisRaw("Horizontal");
 
         //Handle Attacking
         HandleAttack();
 
         //Handle Movement
         m_grounded = IsGrounded();
-        m_playerRB.velocity = CalculateMovement(m_direction, m_jump);
+        if(!m_stunned)
+        {
+            m_playerRB.velocity = CalculateMovement(m_direction, m_jump);
+        }
     }
 
     void FixedUpdate()
@@ -159,7 +170,7 @@ public class Player : MonoBehaviour, IPlayer {
 
     float HandleJump()
     {
-        float val = Input.GetButtonDown("Vertical") ? 1.0f : 0.0f;
+        float val = (Input.GetButtonDown("Vertical") && !m_stunned) ? 1.0f : 0.0f;
 
         if (IsGrounded())
         {
@@ -194,9 +205,9 @@ public class Player : MonoBehaviour, IPlayer {
 
     void HandleAttack()
     {
-        if(!m_currentlyAttacking && Input.GetButtonDown("Attack"))
+        if(!m_currentlyAttacking && Input.GetButtonDown("Attack") && !m_stunned)
         {
-            StartCoroutine("Attack");
+            StartCoroutine(Attack());
         }
     }
 
@@ -245,6 +256,22 @@ public class Player : MonoBehaviour, IPlayer {
             obj.transform.localScale = new Vector3(-1*obj.transform.localScale.x, obj.transform.localScale.y, obj.transform.localScale.z);
         }
     }
+
+    public void StunPlayer(float stunLength)
+    {
+        StartCoroutine(Stun(stunLength));
+    }
+
+    public void InvinciblePlayer(float invincibleLength)
+    {
+        StartCoroutine(Invincible(invincibleLength));
+    }
+
+    public void KnockbackPlayer(Vector3 knockBack)
+    {
+        m_playerRB.velocity = new Vector2(knockBack.x, knockBack.y);
+        Debug.Log(m_playerRB.velocity.x);
+    }
     #endregion
 
     #region Coroutines
@@ -257,5 +284,57 @@ public class Player : MonoBehaviour, IPlayer {
 
         m_currentlyAttacking = false;
     }
+
+    IEnumerator Stun(float stunLength)
+    {
+        m_stunned = true;
+
+        if (m_grounded)
+        {
+            m_playerRB.velocity = new Vector2(0, m_playerRB.velocity.y);
+        }
+
+        StunObject.SetActive(true);
+        yield return new WaitForSeconds(stunLength);
+        m_stunned = false;
+        StunObject.SetActive(false);
+        yield return null;
+    }
+
+    IEnumerator Invincible(float invincibleLength)
+    {
+        m_invincible = true;
+        SpriteRenderer[] renderers = GetComponentsInChildren<SpriteRenderer>(true);
+
+        float time = invincibleLength;
+        while(true)
+        {
+            if(time <= 0.0f)
+            {
+                break;
+            }
+
+            //Flicker Disable
+            foreach(SpriteRenderer render in renderers)
+            {
+                render.enabled = false;
+            }
+            yield return new WaitForSeconds(FlickerTimeOff);
+
+            foreach (SpriteRenderer render in renderers)
+            {
+                render.enabled = true;
+            }
+            yield return new WaitForSeconds(FlickerTimeOn);
+
+            time -= (FlickerTimeOn + FlickerTimeOff);
+        }
+
+        m_invincible = false;
+
+        yield return null;
+    }
     #endregion
+
+
 }

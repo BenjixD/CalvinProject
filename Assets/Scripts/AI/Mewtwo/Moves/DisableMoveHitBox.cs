@@ -12,6 +12,9 @@ public class DisableMoveHitBox : MonoBehaviour {
     public float HitBoxDuration;
     public float DelayDeactivate;
 
+    public float StunLength;
+    public float Damage;
+
     private bool isHit;
 
 	// Use this for initialization
@@ -19,16 +22,28 @@ public class DisableMoveHitBox : MonoBehaviour {
         isHit = false;
         StartCoroutine("ActivateAndDeactivateCollider");
 	}
+
+    void OnDisable()
+    {
+        StopAllCoroutines();
+    }
 	
 	// Update is called once per frame
 	void Update () {
 		
 	}
 
+    void DealDamageAndStatus(GameObject other)
+    {
+        other.GetComponent<IPlayer>().StunPlayer(StunLength);
+        other.GetComponent<Health>().DealDamage(Damage);
+    }
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if(other.gameObject.layer.Equals(LayerMask.NameToLayer("Player")))
         {
+            DealDamageAndStatus(other.gameObject);
             isHit = true;
         }
     }

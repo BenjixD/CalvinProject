@@ -21,7 +21,7 @@ TagManager:
   - CameraRight
   - CameraTop
   - CameraBottom
-  - 
+  - Enemy
   - GroundInteractor
   - 
   - Pokeballs
@@ -46,4 +46,10 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 59565195
+    locked: 0
+  - name: Enemy
+    uniqueID: 4084187033
+    locked: 0
+  - name: Projectile
+    uniqueID: 966567501
     locked: 0

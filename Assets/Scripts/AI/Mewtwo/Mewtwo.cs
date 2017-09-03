@@ -12,7 +12,11 @@ public class Mewtwo : AIBehaviour {
     #region Balancer Values
     public float PlatformInfluence = 0.1f;
     public float TeleportInfluence = 1.3f;
-    public float CorneringInfluence = 2.5f;
+    public float CorneringInfluence = 1f;
+    #endregion
+
+    #region Private Members
+    private Health m_life;
     #endregion
 
     // Use this for initialization
@@ -24,6 +28,7 @@ public class Mewtwo : AIBehaviour {
         LoadIntents(Config);
         AddIntentBalancers();
         m_facingRight = true;
+        m_life = GetComponent<Health>();
 
         StartCoroutine("PerformMove");
         StartCoroutine("DecrementCooldowns");
@@ -68,6 +73,15 @@ public class Mewtwo : AIBehaviour {
 
                 //Normalize Moves
                 NormalizeMoves();
+
+                //Start Floaty if Disabled
+                if(!GetComponent<FloatyBehaviour>().enabled)
+                {
+                    GetComponent<FloatyBehaviour>().enabled = true;
+                }
+
+                //Stop Moving
+                gameObject.transform.parent.GetComponent<Rigidbody2D>().velocity = new Vector3(0, gameObject.transform.parent.GetComponent<Rigidbody2D>().velocity.y, 0);
             }
 
             yield return new WaitForEndOfFrame();
@@ -84,7 +98,7 @@ public class Mewtwo : AIBehaviour {
         GameObject[] nearbyPlatforms = CheckPlatformsInSight();
 
         //Modify Avoid
-        intents[1].Index *= 1 + (nearbyPlatforms.Length * PlatformInfluence);
+        intents[1].Index *= (1 + nearbyPlatforms.Length * PlatformInfluence);
     }
 
     //Balance Chase *= 1.3
@@ -107,15 +121,16 @@ public class Mewtwo : AIBehaviour {
             if(m_target.GetObject.transform.position.x < transform.position.x)
             {
                 //Player is forcing Mewtwo into a wall
-                //Increase Attack
-                if((LeftWall.transform.position.x - transform.position.x) < CorneringInfluence)
+                //Increase Attack and Chase
+                if(Mathf.Abs(RightWall.transform.position.x - transform.position.x) < CorneringInfluence)
                 {
                     intents[0].Index *= 2;
+                    intents[2].Index *= 2;
                 }
 
                 //Mewtwo is forcing player into a wall
                 //Increase Avoid
-                if((RightWall.transform.position.x - transform.position.x) < CorneringInfluence)
+                if(Mathf.Abs(LeftWall.transform.position.x - transform.position.x) < CorneringInfluence)
                 {
                     intents[1].Index *= 2;
                 }
@@ -125,15 +140,16 @@ public class Mewtwo : AIBehaviour {
             else if(m_target.GetObject.transform.position.x > transform.position.x)
             {
                 //Player is forcing Mewtwo into a wall
-                //Increase Attack
-                if ((RightWall.transform.position.x - transform.position.x) < CorneringInfluence)
+                //Increase Attack and Chase
+                if (Mathf.Abs(LeftWall.transform.position.x - transform.position.x) < CorneringInfluence)
                 {
                     intents[0].Index *= 2;
+                    intents[2].Index *= 2;
                 }
 
                 //Mewtwo is forcing player into a wall
                 //Increase Avoid
-                if ((LeftWall.transform.position.x - transform.position.x) < CorneringInfluence)
+                if (Mathf.Abs(RightWall.transform.position.x - transform.position.x) < CorneringInfluence)
                 {
                     intents[1].Index *= 2;
                 }

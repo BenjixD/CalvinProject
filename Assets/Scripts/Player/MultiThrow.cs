@@ -37,6 +37,7 @@ public class MultiThrow : MonoBehaviour, IAttack
                                               transform.position.z);
         GameObject obj = (GameObject)Instantiate(toSpawn.Ammo, spawnLocation, transform.rotation);
         obj.GetComponent<IBullet>().SetTravelProperties(facingRight? new Vector3(1, 0, 0): new Vector3(-1, 0, 0));
+        obj.GetComponent<IBullet>().enabled = true;
     }
     #endregion
 

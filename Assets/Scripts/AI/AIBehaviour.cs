@@ -53,7 +53,7 @@ public class Move
         }
 
         //DEBUG
-        //Debug.Log("Effectiveness: " + Effectiveness);
+        //Debug.Log("Effectiveness: " + Effectiveness + " - " + Skill.GetType().Name);
         //
     }
     #endregion
@@ -333,6 +333,7 @@ public class AIBehaviour : MonoBehaviour {
             if(move.Key > score)
             {
                 bestMove = move.Value;
+                score = move.Key;
             }
         }
         return bestMove;
