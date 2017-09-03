@@ -6,6 +6,7 @@ public class MeteorBehaviour : MonoBehaviour {
 
     #region Public Members
     public GameObject Explosion;
+    public float PersistentTime;
     public Transform ExplosionSpawn;
     public float FallVelocity;
     public float MaxHorizontalVelocity;
@@ -19,9 +20,10 @@ public class MeteorBehaviour : MonoBehaviour {
     void Start () {
         m_rb = GetComponent<Rigidbody2D>();
         RandomizeDirection();
-	}
-	
-	void FixedUpdate () {
+        StartCoroutine("PersistUntilEnd");
+    }
+
+    void FixedUpdate () {
         CorrectDirection();
     }
 
@@ -48,7 +50,7 @@ public class MeteorBehaviour : MonoBehaviour {
         return angle;
     }
 
-    void DestroySelf()
+    void Explode()
     {
         Destroy(gameObject);
         Instantiate(Explosion, ExplosionSpawn.position, Quaternion.identity);
@@ -63,17 +65,26 @@ public class MeteorBehaviour : MonoBehaviour {
         {
             // TODO: damage player
 
-            DestroySelf();
+            Explode();
         }
         else if (other.gameObject.layer.Equals(LayerMask.NameToLayer("Platform")))
         {
             Destroy(other.gameObject);
-            DestroySelf();
+            Explode();
         }
         else if (other.gameObject.layer.Equals(LayerMask.NameToLayer("Ground")))
         {
-            DestroySelf();
+            Explode();
         }
+    }
+    #endregion
+
+    #region Coroutine
+    IEnumerator PersistUntilEnd()
+    {
+        yield return new WaitForSeconds(PersistentTime);
+        Destroy(this.gameObject);
+        yield return null;
     }
     #endregion
 }
