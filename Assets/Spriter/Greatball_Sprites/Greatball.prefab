@@ -823,6 +823,7 @@ MonoBehaviour:
   PersistentTime: 0.6
   ProjectileSpeed: 6
   HitObject: {fileID: 1384993883200402, guid: f67e827a6b1acfd42b4ed6697d6a40d3, type: 2}
+  Damage: 2
 --- !u!212 &212127846252633946
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -12,6 +12,9 @@ public class KiBlastBehaviour : MonoBehaviour, IBullet
     public float ProjectileSpeed;
     public GameObject HitObject;
 
+    public float Damage;
+    public Vector3 Knockback;
+
     public IPlayer Target;
     #endregion
 
@@ -71,10 +74,18 @@ public class KiBlastBehaviour : MonoBehaviour, IBullet
         }
     }
 
+    void DealDamageAndStatus(GameObject other)
+    {
+        other.GetComponent<Health>().DealDamage(Damage);
+        other.GetComponent<IPlayer>().KnockbackPlayer(new Vector3((transform.localScale.x == 1? 1 : -1) * Knockback.x, Knockback.y, 0));
+    }
+
     public void OnHit(GameObject other)
     {
         //Deal Effects to other GameObject
+        DealDamageAndStatus(other);
 
+        //Call hit anim
         Action(true);
         Instantiate(HitObject, transform.position, transform.rotation);
         Destroy(gameObject);

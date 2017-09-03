@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,6 +8,8 @@ public class Mewtwo : AIBehaviour {
     public float TeleportRadius;
     public GameObject LeftWall;
     public GameObject RightWall;
+
+    public Action<bool> DelegateOperation;
     #endregion
 
     #region Balancer Values
@@ -15,8 +18,17 @@ public class Mewtwo : AIBehaviour {
     public float CorneringInfluence = 1f;
     #endregion
 
+    #region Charged Items
+    public bool ChargedShadowBall;
+    public bool ChargeChanged;
+    #endregion
+
     #region Private Members
     private Health m_life;
+
+    private float m_averageDamageTaken;
+    private long m_movesMade;
+    private float m_damageTaken;
     #endregion
 
     // Use this for initialization
@@ -28,7 +40,15 @@ public class Mewtwo : AIBehaviour {
         LoadIntents(Config);
         AddIntentBalancers();
         m_facingRight = true;
+
         m_life = GetComponent<Health>();
+        m_averageDamageTaken = 0;
+        m_movesMade = 0;
+        m_damageTaken = 0;
+
+        ChargedShadowBall = false;
+        ChargeChanged = false;
+        
 
         StartCoroutine("PerformMove");
         StartCoroutine("DecrementCooldowns");
@@ -39,6 +59,36 @@ public class Mewtwo : AIBehaviour {
     {
         HandleFlip();
 	}
+
+    #region Color
+    public void SetChargedShadowBallIndicator()
+    {
+        if(ChargedShadowBall)
+        {
+            foreach(Transform child in transform)
+            {
+                if(child.gameObject.GetComponent<SpriteRenderer>() != null)
+                {
+                    child.gameObject.GetComponent<SpriteRenderer>().color = new Color(1f, 0.8f, 1f, 1f);
+                }
+            }
+        }
+    }
+
+    public void ResetChargedShadowBallIndicator()
+    {
+        if (!ChargedShadowBall)
+        {
+            foreach (Transform child in transform)
+            {
+                if (child.gameObject.GetComponent<SpriteRenderer>() != null)
+                {
+                    child.gameObject.GetComponent<SpriteRenderer>().color = Color.white;
+                }
+            }
+        }
+    }
+    #endregion
 
     #region Helper Functions
     protected IPlayer CheckPlayerInTPRange()
@@ -52,6 +102,28 @@ public class Mewtwo : AIBehaviour {
 
         return null;
     }
+
+    protected override void ChangeState()
+    {
+        if (m_target == null)
+        {
+            if(m_currentState != State.NonAggro)
+            {
+                m_currentState = State.NonAggro;
+                m_movesMade = 0;
+                m_averageDamageTaken = 0;
+            }
+        }
+        else
+        {
+            if(m_currentState != State.Aggro)
+            {
+                m_currentState = State.Aggro;
+                m_movesMade = 0;
+                m_averageDamageTaken = 0;
+            }
+        }
+    }
     #endregion
 
     #region Coroutines
@@ -63,12 +135,33 @@ public class Mewtwo : AIBehaviour {
             m_target = CheckPlayerInSight();
             ChangeState();
 
+            //Save current health and check against health after move
+            float healthBeforeMove = m_life.CurrentHealth;
+
             Move selectedMove = ChooseMove();
             if(selectedMove != null)
             {
                 selectedMove.Skill.InitAttack(selectedMove.AdjustEffectiveness);
                 yield return new WaitForSeconds(selectedMove.Skill.CastTime);
 
+                //Get health difference
+                float damageTaken = healthBeforeMove - m_life.CurrentHealth;
+
+                //Delegate Success or Fail to Mewtwo if applicable
+                if(DelegateOperation != null)
+                {
+                    //Report Success if if damage taken is less than average
+                    DelegateOperation(damageTaken < m_averageDamageTaken);
+                    DelegateOperation = null;
+                }
+
+                //Set new Average Damage
+                m_averageDamageTaken = (m_averageDamageTaken * m_movesMade + damageTaken) / (m_movesMade + 1);
+                m_movesMade += 1;
+
+                //DEBUG
+                //Debug.Log("Average Damage: " + m_averageDamageTaken);
+                //Debug.Log("Current HP: " + m_life.CurrentHealth);
                 //
 
                 //Normalize Moves
@@ -82,17 +175,29 @@ public class Mewtwo : AIBehaviour {
 
                 //Stop Moving
                 gameObject.transform.parent.GetComponent<Rigidbody2D>().velocity = new Vector3(0, gameObject.transform.parent.GetComponent<Rigidbody2D>().velocity.y, 0);
+
+                //Check Shadowball Charge
+                if(ChargeChanged)
+                {
+                    if(ChargedShadowBall)
+                    {
+                        SetChargedShadowBallIndicator();
+                    }
+                    else
+                    {
+                        ResetChargedShadowBallIndicator();
+                    }
+                    ChargeChanged = false;
+                }
             }
 
             yield return new WaitForEndOfFrame();
         }
-        
-        yield return null;
     }
     #endregion
 
     #region Associative Intent Balancer Functions
-    //Balance Avoid *= 1 + #nearby-platforms * 0.1
+    //Balance Avoid *= 1 + #nearby-platforms * 0.05
     private void NearbyPlatforms_IntentBalancer(IntentIndex[] intents)
     {
         GameObject[] nearbyPlatforms = CheckPlatformsInSight();

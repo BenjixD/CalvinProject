@@ -50,7 +50,7 @@ public class Health : MonoBehaviour {
         m_currentHealth -= finalDamage;
 
         //DEBUG
-        Debug.Log(m_currentHealth);
+        //Debug.Log(m_currentHealth);
         //
     }
     #endregion

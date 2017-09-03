@@ -213,7 +213,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!58 &58068159463210524
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -484,9 +484,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9206a802c363ba4d9f9050a0f938de0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PersistentTime: 0.75
+  PersistentTime: 1.5
   ProjectileSpeed: 6
   HitObject: {fileID: 1384993883200402, guid: f67e827a6b1acfd42b4ed6697d6a40d3, type: 2}
+  Damage: 30
+  Knockback: {x: 3, y: 3, z: 0}
 --- !u!212 &212247854273309044
 SpriteRenderer:
   m_ObjectHideFlags: 1
