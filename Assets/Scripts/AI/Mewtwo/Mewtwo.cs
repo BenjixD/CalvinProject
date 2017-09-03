@@ -33,6 +33,16 @@ public class Mewtwo : AIBehaviour {
     private float m_damageTaken;
     #endregion
 
+    #region Properties
+    public float CurrentHealth
+    {
+        get
+        {
+            return GetComponent<Health>().CurrentHealth;
+        }
+    }
+    #endregion
+
     // Use this for initialization
     void Start ()
     {
@@ -59,9 +69,9 @@ public class Mewtwo : AIBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (m_life.CurrentHealth < 0)
+        if (CurrentHealth <= 0)
         {
-
+            Death();
         }
         HandleFlip();
 	}
@@ -97,6 +107,24 @@ public class Mewtwo : AIBehaviour {
     #endregion
 
     #region Helper Functions
+    public void Death()
+    {
+        /*
+        foreach (Collider2D c in GetComponentsInChildren<Collider2D>()) {
+            c.enabled = false;
+        }
+        */
+        Rigidbody2D parent = transform.parent.gameObject.GetComponent<Rigidbody2D>();
+        parent.freezeRotation = false;
+        parent.gravityScale = 1;
+        parent.velocity = Vector2.zero;
+        //parent.velocity = new Vector2 (Random.Range(-70, 70), Random.Range(-70, 70));
+        parent.AddTorque(4f, ForceMode2D.Impulse);
+        StopAllCoroutines();
+        Destroy(gameObject, 7f);
+        this.enabled = false;
+    }
+
     protected IPlayer CheckPlayerInTPRange()
     {
         Collider2D[] hitObjects = CheckRadiusForObject(TeleportRadius, LayerMask.NameToLayer("Player"));
