@@ -87,7 +87,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4556806016832082}
   - component: {fileID: 61821575478866496}
-  m_Layer: 21
+  m_Layer: 17
   m_Name: GroundInteractor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -262,7 +262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4356305128308024}
   - component: {fileID: 61719979908460640}
-  m_Layer: 21
+  m_Layer: 17
   m_Name: GroundInteractor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,7 +278,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4625814087859802}
   - component: {fileID: 61137833628354152}
-  m_Layer: 21
+  m_Layer: 17
   m_Name: GroundInteractor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,7 +423,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4725416412795254}
   - component: {fileID: 61644768862504772}
-  m_Layer: 21
+  m_Layer: 17
   m_Name: GroundInteractor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1466,7 +1466,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4374828857277772}
   - component: {fileID: 61234880104799092}
-  m_Layer: 21
+  m_Layer: 17
   m_Name: GroundInteractor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2093,7 +2093,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4396689206123572}
   - component: {fileID: 61088312458356106}
-  m_Layer: 21
+  m_Layer: 17
   m_Name: GroundInteractor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3695,7 +3695,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1741502111315256}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -5089,7 +5089,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -5169,7 +5169,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -5249,7 +5249,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
