@@ -80,6 +80,14 @@ public class Player : MonoBehaviour, IPlayer {
             return gameObject;
         }
     }
+
+    public float CurrentHealth
+    {
+        get
+        {
+            return GetComponent<Health>().CurrentHealth;
+        }
+    }
     #endregion
 
     #region enum
@@ -108,6 +116,9 @@ public class Player : MonoBehaviour, IPlayer {
 	
 	// Update is called once per frame
 	void Update () {
+        if (CurrentHealth <= 0) {
+            Death();
+        }
         m_currentlyJumping = false;
         m_triggerAttack = false;
 
@@ -272,6 +283,23 @@ public class Player : MonoBehaviour, IPlayer {
         m_playerRB.velocity = new Vector2(knockBack.x, knockBack.y);
     }
     #endregion
+
+    public void Death()
+    {
+        /*
+        foreach (Collider2D c in GetComponentsInChildren<Collider2D>()) {
+            c.enabled = false;
+        }
+        */
+        m_playerRB.freezeRotation = false;
+        m_playerRB.gravityScale = 1;
+        m_playerRB.velocity = Vector2.zero;
+        //m_playerRB.velocity = new Vector2 (Random.Range(-70, 70), Random.Range(-70, 70));
+        m_playerRB.AddTorque(4f, ForceMode2D.Impulse);
+        StopAllCoroutines();
+        Destroy(gameObject, 7f);
+        this.enabled = false;
+    }
 
     #region Coroutines
     IEnumerator Attack()
