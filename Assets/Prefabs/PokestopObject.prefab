@@ -1326,7 +1326,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1586020007878582}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -2.571, y: -0.795, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4149042487213000}
@@ -1750,7 +1750,7 @@ MonoBehaviour:
   BlueStop: {fileID: 1494908667320590}
   PurpleStop: {fileID: 1508635706968472}
   FadeDuration: 1.5
-  Player: {fileID: 0}
+  Player: {fileID: 1974152619908420, guid: b29db4212dd8d8f478ad3a0090d6feb9, type: 2}
   NumAmmoTypes: 3
   NumThrows: 4
   AmmoRarity:
