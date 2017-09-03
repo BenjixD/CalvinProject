@@ -381,7 +381,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -438,7 +438,7 @@ MonoBehaviour:
   PersistentTime: 0.7
   ProjectileSpeed: 7
   HitObject: {fileID: 1384993883200402, guid: f67e827a6b1acfd42b4ed6697d6a40d3, type: 2}
-  Damage: 10
+  Damage: 5
   Knockback: {x: 2, y: 2, z: 0}
 --- !u!212 &212028028114959520
 SpriteRenderer:

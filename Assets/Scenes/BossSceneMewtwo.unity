@@ -668,7 +668,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -1134,7 +1134,37 @@ Prefab:
     - target: {fileID: 114700345945185202, guid: 168dc0060e9638f44aa44c3ea4e934a8,
         type: 2}
       propertyPath: MaxHealth
-      value: 100
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 82767646450654580, guid: 168dc0060e9638f44aa44c3ea4e934a8,
+        type: 2}
+      propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 82469601449047538, guid: 168dc0060e9638f44aa44c3ea4e934a8,
+        type: 2}
+      propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114135451893943846, guid: 168dc0060e9638f44aa44c3ea4e934a8,
+        type: 2}
+      propertyPath: Damage
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 82296453528846544, guid: 168dc0060e9638f44aa44c3ea4e934a8,
+        type: 2}
+      propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114321800582489866, guid: 168dc0060e9638f44aa44c3ea4e934a8,
+        type: 2}
+      propertyPath: Damage
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 82299381616151898, guid: 168dc0060e9638f44aa44c3ea4e934a8,
+        type: 2}
+      propertyPath: spreadCustomCurve.m_RotationOrder
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 168dc0060e9638f44aa44c3ea4e934a8, type: 2}

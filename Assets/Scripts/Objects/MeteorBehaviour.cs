@@ -10,6 +10,9 @@ public class MeteorBehaviour : MonoBehaviour {
     public Transform ExplosionSpawn;
     public float FallVelocity;
     public float MaxHorizontalVelocity;
+    public float Damage;
+    public float StunDuration;
+    public Vector3 Knockback;
     #endregion
 
     #region Private Members
@@ -64,7 +67,9 @@ public class MeteorBehaviour : MonoBehaviour {
         if (other.gameObject.layer.Equals(LayerMask.NameToLayer("Player")))
         {
             // TODO: damage player
-
+            other.gameObject.GetComponent<Player>().KnockbackPlayer(Knockback);
+            other.gameObject.GetComponent<Player>().StunPlayer(StunDuration);
+            other.gameObject.GetComponent<Health>().DealDamage(Damage);
             Explode();
         }
         else if (other.gameObject.layer.Equals(LayerMask.NameToLayer("Platform")))

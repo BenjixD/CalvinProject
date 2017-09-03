@@ -18,7 +18,7 @@ public class LevelManager : MonoBehaviour {
             StartCoroutine(ReturnAfterSeconds(2f, 0));
         }
         if (!Mewtwo)
-            StartCoroutine(ReturnAfterSeconds(2f, 2));
+            StartCoroutine(ReturnAfterSeconds(0f, 2));
 	}
 
     IEnumerator ReturnAfterSeconds(float s, int scene)
