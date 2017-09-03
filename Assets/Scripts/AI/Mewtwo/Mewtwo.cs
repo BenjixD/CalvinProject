@@ -20,6 +20,7 @@ public class Mewtwo : AIBehaviour {
 
     #region Charged Items
     public bool ChargedShadowBall;
+    public bool ChargeChanged;
     #endregion
 
     #region Private Members
@@ -46,6 +47,7 @@ public class Mewtwo : AIBehaviour {
         m_damageTaken = 0;
 
         ChargedShadowBall = false;
+        ChargeChanged = false;
         
 
         StartCoroutine("PerformMove");
@@ -57,6 +59,36 @@ public class Mewtwo : AIBehaviour {
     {
         HandleFlip();
 	}
+
+    #region Color
+    public void SetChargedShadowBallIndicator()
+    {
+        if(ChargedShadowBall)
+        {
+            foreach(Transform child in transform)
+            {
+                if(child.gameObject.GetComponent<SpriteRenderer>() != null)
+                {
+                    child.gameObject.GetComponent<SpriteRenderer>().color = new Color(1f, 0.8f, 1f, 1f);
+                }
+            }
+        }
+    }
+
+    public void ResetChargedShadowBallIndicator()
+    {
+        if (!ChargedShadowBall)
+        {
+            foreach (Transform child in transform)
+            {
+                if (child.gameObject.GetComponent<SpriteRenderer>() != null)
+                {
+                    child.gameObject.GetComponent<SpriteRenderer>().color = Color.white;
+                }
+            }
+        }
+    }
+    #endregion
 
     #region Helper Functions
     protected IPlayer CheckPlayerInTPRange()
@@ -143,6 +175,20 @@ public class Mewtwo : AIBehaviour {
 
                 //Stop Moving
                 gameObject.transform.parent.GetComponent<Rigidbody2D>().velocity = new Vector3(0, gameObject.transform.parent.GetComponent<Rigidbody2D>().velocity.y, 0);
+
+                //Check Shadowball Charge
+                if(ChargeChanged)
+                {
+                    if(ChargedShadowBall)
+                    {
+                        SetChargedShadowBallIndicator();
+                    }
+                    else
+                    {
+                        ResetChargedShadowBallIndicator();
+                    }
+                    ChargeChanged = false;
+                }
             }
 
             yield return new WaitForEndOfFrame();

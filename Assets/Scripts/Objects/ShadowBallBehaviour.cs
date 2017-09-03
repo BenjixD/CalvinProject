@@ -60,7 +60,8 @@ public class ShadowBallBehaviour : MonoBehaviour, IBullet
     void DealDamageAndStatus(GameObject other)
     {
         other.GetComponent<Health>().DealDamage(Damage);
-        other.GetComponent<IPlayer>().KnockbackPlayer(new Vector3((m_direction.x < 0 ? -1 : 1) * Knockback.x, Knockback.y, 0));
+        other.GetComponent<IPlayer>().StunPlayer(0.5f);
+        other.GetComponent<IPlayer>().KnockbackPlayer(new Vector3(((m_direction.x < 0) ? -1 : 1) * Knockback.x, Knockback.y, 0));
     }
 
     public void OnHit(GameObject other)

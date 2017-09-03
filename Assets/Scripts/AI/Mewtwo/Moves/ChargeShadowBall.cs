@@ -24,7 +24,7 @@ public class ChargeShadowBall : Skill
         m_animator = m_reference.GetComponent<Animator>();
         m_remainingCooldown = 0f;
 
-        m_castTime = 0.8f;
+        m_castTime = 0.9f;
         m_defaultCooldown = 10f;
 
         m_pullingObjects = new List<GameObject>();
@@ -122,6 +122,7 @@ public class ChargeShadowBall : Skill
 
         //Set Shadowball to be charged
         m_reference.ChargedShadowBall = true;
+        m_reference.ChargeChanged = true;
 
         //Put move on cooldown
         PutOnCooldown();

@@ -19,7 +19,7 @@ public class ShadowBall : Skill
         m_animator = m_reference.GetComponent<Animator>();
         m_remainingCooldown = 0f;
 
-        m_castTime = 0.1f;
+        m_castTime = 0.2f;
         m_defaultCooldown = 0f;
     }
     #endregion
@@ -82,6 +82,7 @@ public class ShadowBall : Skill
 
         //Set Shadowball to be used
         m_reference.ChargedShadowBall = false;
+        m_reference.ChargeChanged = true;
 
         //Put move on cooldown
         PutOnCooldown();
