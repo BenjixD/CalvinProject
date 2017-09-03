@@ -6,8 +6,7 @@ using UnityEngine.UI;
 public class UIBehaviour : MonoBehaviour {
 
     Text ammo;
-    Slider playerHP;
-    Slider mewtwoHP;
+    public Slider playerHP, mewtwoHP;
 
     public GameObject Calvin, Mewtwo;
     Health CalvinHealth, MewtwoHealth;
@@ -17,8 +16,6 @@ public class UIBehaviour : MonoBehaviour {
 	void Start () {
         ammo = transform.Find("AmmoCount").Find("Ammo").GetComponent<Text>();
         ammoInv = Calvin.GetComponent<AmmoInventory>();
-        playerHP = transform.Find("PlayerHP").GetComponent<Slider>();
-        mewtwoHP = transform.Find("MewtwoHP").GetComponent<Slider>();
         CalvinHealth = Calvin.GetComponent<Health>();
         MewtwoHealth = Mewtwo.GetComponent<Health>();
 
