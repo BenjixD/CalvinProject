@@ -10,6 +10,7 @@ public class Mewtwo : AIBehaviour {
     public GameObject RightWall;
 
     public Action<bool> DelegateOperation;
+    public Func<float> DeferredTeleport;
     #endregion
 
     #region Balancer Values
@@ -143,6 +144,15 @@ public class Mewtwo : AIBehaviour {
             {
                 selectedMove.Skill.InitAttack(selectedMove.AdjustEffectiveness);
                 yield return new WaitForSeconds(selectedMove.Skill.CastTime);
+
+                //Handle Deffered Special skills
+                if(DeferredTeleport != null)
+                {
+                    float wait = DeferredTeleport();
+                    yield return new WaitForSeconds(wait);
+                    GetComponent<BoxCollider2D>().enabled = true;
+                    DeferredTeleport = null;
+                }
 
                 //Get health difference
                 float damageTaken = healthBeforeMove - m_life.CurrentHealth;

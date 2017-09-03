@@ -7,6 +7,7 @@ public class Player : MonoBehaviour, IPlayer {
     #region Public Members
     // Change to proper ground layer number if needed
     public LayerMask groundLayer;
+    public LayerMask platformLayer;
     public float horizontalSpd;
     public float verticalSpd;
     public float flashJumpSpd;
@@ -105,7 +106,7 @@ public class Player : MonoBehaviour, IPlayer {
         m_basicAttack = GetComponent<MultiThrow>();
 
         CurrentJumpingState = JumpingState.Grounded;
-        distToGround = GetComponent<BoxCollider2D>().bounds.extents.y - GetComponent<BoxCollider2D>().offset.y/2;
+        distToGround = GetComponent<BoxCollider2D>().bounds.extents.y - GetComponent<BoxCollider2D>().offset.y/2 - 0.1f;
 
         m_facingRight = false;
         m_currentlyAttacking = false;
@@ -155,7 +156,7 @@ public class Player : MonoBehaviour, IPlayer {
     // Checks if on ground through Raycast. Also changes drag
     bool IsGrounded()
     {
-        bool res = Physics2D.Raycast(transform.position, -Vector2.up, distance: distToGround, layerMask: groundLayer.value);
+        bool res = Physics2D.Raycast(transform.position, -Vector2.up, distance: distToGround, layerMask: groundLayer | platformLayer);
         return res;
     }
 

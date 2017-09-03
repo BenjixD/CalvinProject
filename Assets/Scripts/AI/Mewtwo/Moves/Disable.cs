@@ -9,7 +9,7 @@ public class Disable : Skill
     private Mewtwo m_reference;
     private Animator m_animator;
 
-    private Vector3 m_colliderOffset = new Vector3(0.65f, 0.3f, 0f);
+    private Vector3 m_colliderOffset = new Vector3(0.65f, 0.5f, 0f);
     #endregion
 
     #region Constructor#

@@ -20,16 +20,20 @@ public class FloatyBehaviour : MonoBehaviour {
     }
     #endregion
 
+    void OnStart()
+    {
+        m_originalPosition = transform.localPosition;
+    }
+
     // Use this for initialization
     void OnEnable()
     {
-        m_originalPosition = transform.position;
         StartCoroutine(FloatUp());
     }
 
     void OnDisable()
     {
-        transform.position = m_originalPosition;
+        transform.localPosition = m_originalPosition;
         StopAllCoroutines();
     }
 
@@ -39,7 +43,6 @@ public class FloatyBehaviour : MonoBehaviour {
         for(int i = 0; i < NumSteps; ++i)
         {
             //Bobble Up
-            m_originalPosition = transform.position - (Step * i);
             transform.position += Step;
 
             yield return new WaitForFixedUpdate();
@@ -54,7 +57,6 @@ public class FloatyBehaviour : MonoBehaviour {
         for (int i = NumSteps - 1; i >= 0; --i)
         {
             //Bobble Down
-            m_originalPosition = transform.position - (Step * i);
             transform.position -= Step;
 
             yield return new WaitForFixedUpdate();

@@ -78,12 +78,16 @@ public class MewtwoConfig : IBossConfig
 
     private void SetAvoidMoves(IntentIndex avoidInt)
     {
+        Move teleport = new Move(new Teleport(Instance, Mewtwo.Intent.Avoid));
+        avoidInt.Moveset.Add(teleport);
         Move walk = new Move(new Walk(Instance, Walk.MoveType.Avoid));
         avoidInt.Moveset.Add(walk);
     }
 
     private void SetChaseMoves(IntentIndex chaseInt)
     {
+        Move teleport = new Move(new Teleport(Instance, Mewtwo.Intent.Chase));
+        chaseInt.Moveset.Add(teleport);
         Move walk = new Move(new Walk(Instance, Walk.MoveType.Chase));
         chaseInt.Moveset.Add(walk);
     }
