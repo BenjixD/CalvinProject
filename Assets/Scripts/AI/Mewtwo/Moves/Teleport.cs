@@ -20,7 +20,7 @@ public class Teleport : Skill
         m_remainingCooldown = 0f;
 
         m_castTime = 0.7f;
-        m_defaultCooldown = 5f;
+        m_defaultCooldown = 8f;
 
         m_tpRadius = m_reference.TeleportRadius;
         m_moveReason = mt;

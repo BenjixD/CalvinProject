@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4012867999569610}
   - component: {fileID: 212003936399311982}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,7 +36,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4014154854034060}
   - component: {fileID: 212543285555514738}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52,7 +52,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4540420822028594}
   - component: {fileID: 212281739976789666}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,7 +69,7 @@ GameObject:
   - component: {fileID: 4770195603386796}
   - component: {fileID: 95586640524406084}
   - component: {fileID: 114021146896580950}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85,7 +85,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4029001923028176}
   - component: {fileID: 212916657607498516}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,7 +101,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4652799092423100}
   - component: {fileID: 212077129878016778}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4961014094017400}
   - component: {fileID: 212790266939414144}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokestopStand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4685368060832282}
   - component: {fileID: 212926424929159054}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -149,7 +149,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4643812983183652}
   - component: {fileID: 212867468089707700}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -165,7 +165,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4021350816819990}
   - component: {fileID: 212804964234778908}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -181,7 +181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4735154136400614}
   - component: {fileID: 212835640397354702}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -197,7 +197,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4934975182712774}
   - component: {fileID: 212033620130871880}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -229,7 +229,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4159996536897204}
   - component: {fileID: 212415300631270944}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -245,7 +245,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4205843990356158}
   - component: {fileID: 212568208457983560}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,7 +261,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4671410015606104}
   - component: {fileID: 212156559045496796}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -277,7 +277,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4721087304219210}
   - component: {fileID: 212521956391329814}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -293,7 +293,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4209367891665392}
   - component: {fileID: 212987678338568870}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -309,7 +309,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4710286421913732}
   - component: {fileID: 212965658954011460}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -325,7 +325,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4396725658223870}
   - component: {fileID: 212409160418468488}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -341,7 +341,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4574021899922930}
   - component: {fileID: 212913643021239928}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokestopStand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -358,7 +358,7 @@ GameObject:
   - component: {fileID: 4844363682543126}
   - component: {fileID: 95534468114054844}
   - component: {fileID: 114949293555894184}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -374,7 +374,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4185073204230860}
   - component: {fileID: 212936099175832028}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -394,7 +394,7 @@ GameObject:
   - component: {fileID: 50978002158585560}
   - component: {fileID: 114538262058993224}
   - component: {fileID: 82758180917434382}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokestopObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -410,7 +410,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4565634150207252}
   - component: {fileID: 212300810317961582}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -426,7 +426,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4341488721706520}
   - component: {fileID: 212114626027948018}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -442,7 +442,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4478756230847690}
   - component: {fileID: 212123974936531566}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -458,7 +458,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4471262209910494}
   - component: {fileID: 212202354586008422}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -474,7 +474,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4850528444366722}
   - component: {fileID: 212220991395605408}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -490,7 +490,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4224815279856768}
   - component: {fileID: 212332205847003184}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -506,7 +506,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4855452125953964}
   - component: {fileID: 212962518119516634}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokestopStand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -522,7 +522,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4070757791764236}
   - component: {fileID: 212128252092568800}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokestopStand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -538,7 +538,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4805943325357112}
   - component: {fileID: 212534465474489602}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -555,7 +555,7 @@ GameObject:
   - component: {fileID: 4120755576304174}
   - component: {fileID: 95168383889471958}
   - component: {fileID: 114978404253912272}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -571,7 +571,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4227785212905026}
   - component: {fileID: 212152320242853684}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -587,7 +587,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4232863376527620}
   - component: {fileID: 212245147571134234}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -603,7 +603,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4797575143955710}
   - component: {fileID: 212960053578036774}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -619,7 +619,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4638489966872240}
   - component: {fileID: 212267605291081058}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -635,7 +635,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4396358532023330}
   - component: {fileID: 212776915483008010}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -651,7 +651,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4591490221595864}
   - component: {fileID: 212974752870114958}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -667,7 +667,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4501110835199668}
   - component: {fileID: 212934545944569696}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokestopStand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -683,7 +683,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4390390453827016}
   - component: {fileID: 212241925642441258}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -700,7 +700,7 @@ GameObject:
   - component: {fileID: 4165067443127544}
   - component: {fileID: 95818400105823036}
   - component: {fileID: 114167783984759328}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -716,7 +716,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4904527140180936}
   - component: {fileID: 212078615174452526}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -732,7 +732,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4986747331841906}
   - component: {fileID: 212667933221982632}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -748,7 +748,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4105593261909840}
   - component: {fileID: 212549858295969556}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -764,7 +764,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4426990607727350}
   - component: {fileID: 212816552110840622}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -780,7 +780,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4395712842482274}
   - component: {fileID: 212762110203205144}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -796,7 +796,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4826324134846894}
   - component: {fileID: 212253410767086640}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -813,7 +813,7 @@ GameObject:
   - component: {fileID: 4591131268831110}
   - component: {fileID: 95706905218435818}
   - component: {fileID: 114772890305158852}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokestopEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -829,7 +829,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4176850274381920}
   - component: {fileID: 212297884538691614}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -846,7 +846,7 @@ GameObject:
   - component: {fileID: 4342555119702724}
   - component: {fileID: 95548196239439108}
   - component: {fileID: 114668545786159700}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokestopEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -862,7 +862,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4239101167230492}
   - component: {fileID: 212725966884730660}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -878,7 +878,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4076476145648840}
   - component: {fileID: 212997084804260566}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -894,7 +894,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4675670752767640}
   - component: {fileID: 212954030176029476}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -910,7 +910,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4662600880698506}
   - component: {fileID: 212924262716728160}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -926,7 +926,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4596395555675806}
   - component: {fileID: 212006217690288292}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -942,7 +942,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4700215521219982}
   - component: {fileID: 212695746385737486}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -958,7 +958,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4481621339521494}
   - component: {fileID: 212168883082189748}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -975,7 +975,7 @@ GameObject:
   - component: {fileID: 4599398233813602}
   - component: {fileID: 95567136433153150}
   - component: {fileID: 114768226759717976}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -991,7 +991,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4074849834388222}
   - component: {fileID: 212352319375544726}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1023,7 +1023,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4125482546177766}
   - component: {fileID: 212175828395224836}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1039,7 +1039,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4790029759200342}
   - component: {fileID: 212540642047179736}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1055,7 +1055,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4287032050493376}
   - component: {fileID: 212640421298381928}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1071,7 +1071,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4060621479064348}
   - component: {fileID: 212380583660489836}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1103,7 +1103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4542339856826478}
   - component: {fileID: 212230100502133036}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1120,7 +1120,7 @@ GameObject:
   - component: {fileID: 4864677346742004}
   - component: {fileID: 95372531582421736}
   - component: {fileID: 114539751390558660}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokestopEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1136,7 +1136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4487255404382456}
   - component: {fileID: 212478349770848034}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1152,7 +1152,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4745333851386006}
   - component: {fileID: 212178623139999600}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1168,7 +1168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4811798608595140}
   - component: {fileID: 212652512259673016}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1184,7 +1184,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4765551346642312}
   - component: {fileID: 212745320768941114}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1200,7 +1200,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4474884476910966}
   - component: {fileID: 212191877383742660}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1216,7 +1216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4941511397342040}
   - component: {fileID: 212932231058191750}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1232,7 +1232,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4552458346349872}
   - component: {fileID: 212342912225188124}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1267,7 +1267,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4865415625895468}
   - component: {fileID: 212679263000104400}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1283,7 +1283,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4152169397949546}
   - component: {fileID: 212795417881706420}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1315,7 +1315,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4061886733722872}
   - component: {fileID: 212648466422833160}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1331,7 +1331,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4957911810774178}
   - component: {fileID: 212827648917973548}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1347,7 +1347,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4594775499993054}
   - component: {fileID: 212515286340825832}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1363,7 +1363,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4156085213231678}
   - component: {fileID: 212744850785561754}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1379,7 +1379,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4951537328183922}
   - component: {fileID: 212209631143580084}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1395,7 +1395,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4627377321027752}
   - component: {fileID: 212552809702580718}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1411,7 +1411,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4502847364639034}
   - component: {fileID: 212850611409905424}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1427,7 +1427,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4804790546312488}
   - component: {fileID: 212975475750291430}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1443,7 +1443,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4224777878942502}
   - component: {fileID: 212260856020435012}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1459,7 +1459,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4167394845440810}
   - component: {fileID: 212831851197365514}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1475,7 +1475,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4689682019111138}
   - component: {fileID: 212091961713583588}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1491,7 +1491,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4111358529052770}
   - component: {fileID: 212308641062726750}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1507,7 +1507,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4490515281244224}
   - component: {fileID: 212803274834989480}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1522,7 +1522,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4146352859135582}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeStopPurpleObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1561,7 +1561,7 @@ GameObject:
   - component: {fileID: 50174514667411368}
   - component: {fileID: 114106210962871064}
   - component: {fileID: 82812058499487444}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokestopObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1577,7 +1577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4458957974737712}
   - component: {fileID: 212977314408992802}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1593,7 +1593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4937619598796988}
   - component: {fileID: 212617389912411256}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1609,7 +1609,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4453540137162166}
   - component: {fileID: 212735958553459274}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1625,7 +1625,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4716329039067960}
   - component: {fileID: 212211233807606878}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1641,7 +1641,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4047363399725784}
   - component: {fileID: 212406045852193476}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1656,7 +1656,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4816546205925700}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeStopBlueObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1672,7 +1672,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4684933724916382}
   - component: {fileID: 212706047996782868}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1688,7 +1688,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4736099979498040}
   - component: {fileID: 212638339482276538}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1704,7 +1704,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4496158688887234}
   - component: {fileID: 212184391333542488}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1720,7 +1720,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4033241000103194}
   - component: {fileID: 212803681401930908}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokestopStand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1736,7 +1736,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4910323205981730}
   - component: {fileID: 212542094075599722}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1752,7 +1752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4826648284015780}
   - component: {fileID: 212471804163271044}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1769,7 +1769,7 @@ GameObject:
   - component: {fileID: 4535361801776412}
   - component: {fileID: 95548433279285622}
   - component: {fileID: 114527445879771162}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokestopEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1785,7 +1785,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4366407435856478}
   - component: {fileID: 212873191175337780}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1801,7 +1801,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4211332757668298}
   - component: {fileID: 212919149440103312}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1817,7 +1817,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4817198506347714}
   - component: {fileID: 212579520714492800}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1833,7 +1833,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4072033360750766}
   - component: {fileID: 212001603796096676}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1865,7 +1865,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4557847189311472}
   - component: {fileID: 212332361401630220}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1880,7 +1880,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4976303518667378}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeStopPurpleObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1897,7 +1897,7 @@ GameObject:
   - component: {fileID: 4913572924375184}
   - component: {fileID: 95687326922827682}
   - component: {fileID: 114719877186696302}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokestopEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1913,7 +1913,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4909928085802884}
   - component: {fileID: 212308780094704272}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1929,7 +1929,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4077293768267676}
   - component: {fileID: 212293923170427660}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1945,7 +1945,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4766202151949492}
   - component: {fileID: 212701392674154294}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1980,7 +1980,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4460396017384298}
   - component: {fileID: 212159814798239552}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1996,7 +1996,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4715532444431318}
   - component: {fileID: 212690729347990930}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2012,7 +2012,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4014203876426586}
   - component: {fileID: 212641521233027846}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2027,7 +2027,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4482816904110302}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeStopBlueObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2043,7 +2043,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4494282651096356}
   - component: {fileID: 212268987679318550}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2059,7 +2059,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4177227109555842}
   - component: {fileID: 212178897618323146}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2075,7 +2075,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4770925625929940}
   - component: {fileID: 212364468059807752}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2091,7 +2091,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4221927818879574}
   - component: {fileID: 212880687812478814}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2123,7 +2123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4910961421137784}
   - component: {fileID: 212877140090409154}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2139,7 +2139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4736722978574398}
   - component: {fileID: 212201004868681688}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2155,7 +2155,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4120532223019566}
   - component: {fileID: 212133753297033444}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2171,7 +2171,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4733870430163256}
   - component: {fileID: 212423150292386426}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2187,7 +2187,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4487156862766828}
   - component: {fileID: 212029150374968676}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2203,7 +2203,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4246012110381784}
   - component: {fileID: 212044031638327400}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2219,7 +2219,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4435653754390568}
   - component: {fileID: 212957635805424410}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2235,7 +2235,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4940298191055046}
   - component: {fileID: 212837243733450628}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2251,7 +2251,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4423290808746298}
   - component: {fileID: 212554640907488232}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2267,7 +2267,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4226531015192030}
   - component: {fileID: 212194486743746970}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2283,7 +2283,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4652580415057304}
   - component: {fileID: 212801360564254204}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2298,7 +2298,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4064875130867974}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeStopPurpleObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2315,7 +2315,7 @@ GameObject:
   - component: {fileID: 4212054839399734}
   - component: {fileID: 95244632163468434}
   - component: {fileID: 114045755556056426}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokestopEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2331,7 +2331,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4246437235891254}
   - component: {fileID: 212306295094804000}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2347,7 +2347,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4774397877689476}
   - component: {fileID: 212149044614475878}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2363,7 +2363,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4155773532948918}
   - component: {fileID: 212612030421779190}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2379,7 +2379,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4065897107665660}
   - component: {fileID: 212034383147408156}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokestopStand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2414,7 +2414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4674926690989958}
   - component: {fileID: 212865520998597298}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2430,7 +2430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4838708813169450}
   - component: {fileID: 212300435548885344}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2446,7 +2446,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4465713604861130}
   - component: {fileID: 212393996020530192}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2462,7 +2462,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4011326574634836}
   - component: {fileID: 212236370611298474}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2478,7 +2478,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4057582182192424}
   - component: {fileID: 212523775206322950}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2493,7 +2493,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4509266731109236}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeStopPurpleObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2509,7 +2509,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4257741983575756}
   - component: {fileID: 212070992728048966}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2544,7 +2544,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4916600876451482}
   - component: {fileID: 212450104170674160}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokestopStand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2577,7 +2577,7 @@ GameObject:
   - component: {fileID: 4106933569896794}
   - component: {fileID: 95897217403606352}
   - component: {fileID: 114184649677432716}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2593,7 +2593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4571609501766864}
   - component: {fileID: 212961803508235420}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2609,7 +2609,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4050678637400448}
   - component: {fileID: 212018225523332746}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2625,7 +2625,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4403592901600948}
   - component: {fileID: 212389299586524800}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2641,7 +2641,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4131773184879990}
   - component: {fileID: 212069515288990596}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2658,7 +2658,7 @@ GameObject:
   - component: {fileID: 4417732038431776}
   - component: {fileID: 95944480796780754}
   - component: {fileID: 114783687234445820}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokestopEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2689,7 +2689,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4452930525707828}
   - component: {fileID: 212900284433644540}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2705,7 +2705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4465283675454322}
   - component: {fileID: 212518743354207636}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2721,7 +2721,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4931730995301542}
   - component: {fileID: 212151821015509996}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2737,7 +2737,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4839677133675058}
   - component: {fileID: 212624532540090052}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2753,7 +2753,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4851479435415942}
   - component: {fileID: 212269109637439482}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2769,7 +2769,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4061338078489138}
   - component: {fileID: 212946039015620114}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2786,7 +2786,7 @@ GameObject:
   - component: {fileID: 4455718322613148}
   - component: {fileID: 95077957874086470}
   - component: {fileID: 114124790257230592}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokestopEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2802,7 +2802,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4100607987875936}
   - component: {fileID: 212817190136758198}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2818,7 +2818,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4971359234322684}
   - component: {fileID: 212834708224538688}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2834,7 +2834,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4856629573058724}
   - component: {fileID: 212412649135595908}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2850,7 +2850,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4410382778203792}
   - component: {fileID: 212494208272108440}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2866,7 +2866,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4403230442067812}
   - component: {fileID: 212729638520079996}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokestopStand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2882,7 +2882,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4417349617563558}
   - component: {fileID: 212358117675190888}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2898,7 +2898,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4239302617850230}
   - component: {fileID: 212314389579683806}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2914,7 +2914,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4702002637255570}
   - component: {fileID: 212770261318013978}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2930,7 +2930,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4322653379503160}
   - component: {fileID: 212284224990110808}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2946,7 +2946,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4540542956694552}
   - component: {fileID: 212543602518873496}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2962,7 +2962,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4508710096577430}
   - component: {fileID: 212235268183372860}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2978,7 +2978,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4843968272790908}
   - component: {fileID: 212603275242350756}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2994,7 +2994,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4523597159849736}
   - component: {fileID: 212281183419179608}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3014,7 +3014,7 @@ GameObject:
   - component: {fileID: 50083925505809890}
   - component: {fileID: 114600306220497810}
   - component: {fileID: 82494970564590310}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokestopObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3029,7 +3029,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4809736454661318}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeStopBlueObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3045,7 +3045,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4596520760899356}
   - component: {fileID: 212182678383449130}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3061,7 +3061,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4819209961893766}
   - component: {fileID: 212076433290602328}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3077,7 +3077,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4158632177614030}
   - component: {fileID: 212464530795965918}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3093,7 +3093,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4999634617062250}
   - component: {fileID: 212692962819762296}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3113,7 +3113,7 @@ GameObject:
   - component: {fileID: 50301293212443190}
   - component: {fileID: 114904579632095388}
   - component: {fileID: 82355541530607804}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokestopObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3129,7 +3129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4207668333800040}
   - component: {fileID: 212249908684697958}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3145,7 +3145,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4838032627190626}
   - component: {fileID: 212929224326034040}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3161,7 +3161,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4692322222015588}
   - component: {fileID: 212073169255816832}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3177,7 +3177,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4020232891027924}
   - component: {fileID: 212990191027884602}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3193,7 +3193,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4180397530891756}
   - component: {fileID: 212163116201281318}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3210,7 +3210,7 @@ GameObject:
   - component: {fileID: 4413849610880576}
   - component: {fileID: 95949078775315266}
   - component: {fileID: 114333647159563310}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3246,7 +3246,7 @@ GameObject:
   - component: {fileID: 50417012605335982}
   - component: {fileID: 114926002518301184}
   - component: {fileID: 82418291674076400}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokestopObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3262,7 +3262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4674705644252372}
   - component: {fileID: 212432522970187006}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3278,7 +3278,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4235180334429138}
   - component: {fileID: 212128802946546510}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3295,7 +3295,7 @@ GameObject:
   - component: {fileID: 4147529573647486}
   - component: {fileID: 95823267357005790}
   - component: {fileID: 114486922429669930}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3311,7 +3311,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4725903843747078}
   - component: {fileID: 212513667686188634}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3327,7 +3327,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4486957717806006}
   - component: {fileID: 212599353712012352}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3343,7 +3343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4004601332499520}
   - component: {fileID: 212110685010383380}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3358,7 +3358,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4799268734795968}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeStopPurpleObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3373,7 +3373,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4464884035447654}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeStopBlueObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3389,7 +3389,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4625874709021846}
   - component: {fileID: 212313736842201430}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3405,7 +3405,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4586844471407838}
   - component: {fileID: 212309917256497766}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3421,7 +3421,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4083399540964206}
   - component: {fileID: 212934896822439556}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3437,7 +3437,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4836593214236920}
   - component: {fileID: 212668996798737148}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3454,7 +3454,7 @@ GameObject:
   - component: {fileID: 4228381011398870}
   - component: {fileID: 95394002370557636}
   - component: {fileID: 114898738446196754}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokestopEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3471,7 +3471,7 @@ GameObject:
   - component: {fileID: 4770142177679478}
   - component: {fileID: 95069939651545136}
   - component: {fileID: 114602147599156260}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3487,7 +3487,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4241538641420774}
   - component: {fileID: 212357348519981296}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3503,7 +3503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4924219523415818}
   - component: {fileID: 212652665025985950}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3519,7 +3519,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4884049659098290}
   - component: {fileID: 212852003708231062}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3535,7 +3535,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4795531854110464}
   - component: {fileID: 212622508065500862}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3551,7 +3551,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4611256543603356}
   - component: {fileID: 212691398239807004}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3567,7 +3567,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4995610539403372}
   - component: {fileID: 212078342893885712}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3583,7 +3583,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4061456601194886}
   - component: {fileID: 212218752052261288}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3599,7 +3599,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4952432016937558}
   - component: {fileID: 212299872729076052}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3615,7 +3615,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4894718402094346}
   - component: {fileID: 212037169816624220}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3631,7 +3631,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4896869559964240}
   - component: {fileID: 212645101838734656}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3647,7 +3647,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4469028839715736}
   - component: {fileID: 212474325833273284}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3663,7 +3663,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4283615611574698}
   - component: {fileID: 212916340427513926}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3698,7 +3698,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4171962628728562}
   - component: {fileID: 212671896963936550}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3733,7 +3733,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4509925286004618}
   - component: {fileID: 212107809060054182}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3749,7 +3749,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4746345189622192}
   - component: {fileID: 212855037977370258}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3765,7 +3765,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4877401626561074}
   - component: {fileID: 212694377125764194}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3781,7 +3781,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4057333851081124}
   - component: {fileID: 212606727008938150}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3797,7 +3797,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4872251769761542}
   - component: {fileID: 212821852533858392}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3813,7 +3813,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4015533784914866}
   - component: {fileID: 212121713472798000}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3829,7 +3829,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4435470395236706}
   - component: {fileID: 212149640355773254}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3845,7 +3845,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4258421989958332}
   - component: {fileID: 212123766421087676}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokestopStand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3862,7 +3862,7 @@ GameObject:
   - component: {fileID: 4134237154976658}
   - component: {fileID: 95712489165232238}
   - component: {fileID: 114303574989933440}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokestopEye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3878,7 +3878,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4632144464746324}
   - component: {fileID: 212070684364783452}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3894,7 +3894,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4549492573717900}
   - component: {fileID: 212065547909018836}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3911,7 +3911,7 @@ GameObject:
   - component: {fileID: 4543467020571408}
   - component: {fileID: 95280846031391970}
   - component: {fileID: 114748218328028754}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3927,7 +3927,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4960078681029020}
   - component: {fileID: 212518034214679742}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3943,7 +3943,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4763011280136378}
   - component: {fileID: 212885833049388988}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3959,7 +3959,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4133083537587214}
   - component: {fileID: 212129089779803196}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3975,7 +3975,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4661913618220416}
   - component: {fileID: 212484089749446852}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4007,7 +4007,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4569076802498754}
   - component: {fileID: 212770128825865610}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4039,7 +4039,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4755126516603830}
   - component: {fileID: 212704706030140944}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4054,7 +4054,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4417875193205464}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeStopBlueObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4070,7 +4070,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4477228019571932}
   - component: {fileID: 212317732307362676}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4086,7 +4086,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4219633854988230}
   - component: {fileID: 212805074243808854}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: Pokestop_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4102,7 +4102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4297610829435982}
   - component: {fileID: 212755556885792116}
-  m_Layer: 21
+  m_Layer: 11
   m_Name: PokeRing_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9660,7 +9660,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212003936399311982
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -9702,7 +9701,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212006217690288292
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -9744,7 +9742,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212018225523332746
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -9786,7 +9783,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212029150374968676
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -9828,7 +9824,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212033620130871880
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -9870,7 +9865,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212034383147408156
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -9912,7 +9906,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212037169816624220
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -9954,7 +9947,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212044031638327400
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -9996,7 +9988,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212065547909018836
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -10038,7 +10029,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212069515288990596
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -10080,7 +10070,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212070684364783452
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -10122,7 +10111,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212070992728048966
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -10164,7 +10152,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212073169255816832
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -10206,7 +10193,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212076433290602328
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -10248,7 +10234,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212077129878016778
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -10290,7 +10275,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212078342893885712
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -10332,7 +10316,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212078615174452526
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -10374,7 +10357,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212091961713583588
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -10416,7 +10398,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212107809060054182
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -10458,7 +10439,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212110685010383380
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -10500,7 +10480,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212114626027948018
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -10542,7 +10521,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212121713472798000
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -10584,7 +10562,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212123766421087676
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -10626,7 +10603,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212123974936531566
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -10668,7 +10644,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212128252092568800
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -10710,7 +10685,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212128802946546510
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -10752,7 +10726,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212129089779803196
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -10794,7 +10767,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212133753297033444
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -10836,7 +10808,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212149044614475878
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -10878,7 +10849,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212149640355773254
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -10920,7 +10890,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212151821015509996
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -10962,7 +10931,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212152320242853684
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -11004,7 +10972,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212156559045496796
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -11046,7 +11013,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212159814798239552
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -11088,7 +11054,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212163116201281318
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -11130,7 +11095,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212163494244191180
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -11172,7 +11136,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212168883082189748
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -11214,7 +11177,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212175828395224836
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -11256,7 +11218,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212178623139999600
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -11298,7 +11259,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212178897618323146
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -11340,7 +11300,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212182678383449130
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -11382,7 +11341,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212184391333542488
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -11424,7 +11382,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212191877383742660
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -11466,7 +11423,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212194486743746970
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -11508,7 +11464,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212201004868681688
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -11550,7 +11505,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212202354586008422
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -11592,7 +11546,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212209631143580084
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -11634,7 +11587,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212211233807606878
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -11676,7 +11628,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212218752052261288
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -11718,7 +11669,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212220991395605408
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -11760,7 +11710,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212230100502133036
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -11802,7 +11751,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212235268183372860
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -11844,7 +11792,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212236370611298474
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -11886,7 +11833,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212241925642441258
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -11928,7 +11874,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212245147571134234
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -11970,7 +11915,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212249908684697958
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -12012,7 +11956,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212253410767086640
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -12054,7 +11997,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212260856020435012
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -12096,7 +12038,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212267605291081058
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -12138,7 +12079,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212268987679318550
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -12180,7 +12120,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212269109637439482
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -12222,7 +12161,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212281183419179608
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -12264,7 +12202,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212281739976789666
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -12306,7 +12243,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212284224990110808
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -12348,7 +12284,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212293923170427660
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -12390,7 +12325,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212297884538691614
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -12432,7 +12366,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212299872729076052
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -12474,7 +12407,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212300435548885344
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -12516,7 +12448,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212300810317961582
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -12558,7 +12489,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212306295094804000
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -12600,7 +12530,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212308641062726750
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -12642,7 +12571,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212308780094704272
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -12684,7 +12612,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212309917256497766
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -12726,7 +12653,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212313736842201430
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -12768,7 +12694,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212314389579683806
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -12810,7 +12735,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212317732307362676
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -12852,7 +12776,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212332205847003184
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -12894,7 +12817,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212332361401630220
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -12936,7 +12858,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212342912225188124
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -12978,7 +12899,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212352319375544726
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -13020,7 +12940,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212357348519981296
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -13062,7 +12981,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212358117675190888
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -13104,7 +13022,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212364468059807752
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -13146,7 +13063,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212380583660489836
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -13188,7 +13104,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212389299586524800
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -13230,7 +13145,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212393996020530192
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -13272,7 +13186,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212406045852193476
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -13314,7 +13227,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212409160418468488
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -13356,7 +13268,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212412649135595908
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -13398,7 +13309,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212415300631270944
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -13440,7 +13350,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212423150292386426
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -13482,7 +13391,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212432522970187006
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -13524,7 +13432,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212450104170674160
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -13566,7 +13473,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212464530795965918
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -13608,7 +13514,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212471804163271044
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -13650,7 +13555,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212474325833273284
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -13692,7 +13596,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212478349770848034
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -13734,7 +13637,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212484089749446852
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -13776,7 +13678,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212494208272108440
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -13818,7 +13719,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212512958333948480
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -13860,7 +13760,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212513667686188634
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -13902,7 +13801,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212515286340825832
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -13944,7 +13842,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212518034214679742
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -13986,7 +13883,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212518743354207636
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -14028,7 +13924,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212521956391329814
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -14070,7 +13965,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212523775206322950
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -14112,7 +14006,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212534465474489602
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -14154,7 +14047,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212540642047179736
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -14196,7 +14088,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212542094075599722
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -14238,7 +14129,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212543285555514738
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -14280,7 +14170,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212543602518873496
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -14322,7 +14211,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212549858295969556
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -14364,7 +14252,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212552809702580718
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -14406,7 +14293,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212554640907488232
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -14448,7 +14334,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212568208457983560
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -14490,7 +14375,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212579520714492800
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -14532,7 +14416,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212599353712012352
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -14574,7 +14457,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212603275242350756
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -14616,7 +14498,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212606727008938150
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -14658,7 +14539,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212612030421779190
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -14700,7 +14580,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212617389912411256
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -14742,7 +14621,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212622508065500862
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -14784,7 +14662,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212624532540090052
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -14826,7 +14703,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212638339482276538
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -14868,7 +14744,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212640421298381928
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -14910,7 +14785,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212641521233027846
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -14952,7 +14826,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212645101838734656
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -14994,7 +14867,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212645298941845682
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -15036,7 +14908,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212648466422833160
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -15078,7 +14949,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212652512259673016
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -15120,7 +14990,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212652665025985950
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -15162,7 +15031,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212667933221982632
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -15204,7 +15072,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212668996798737148
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -15246,7 +15113,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212671896963936550
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -15288,7 +15154,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212679263000104400
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -15330,7 +15195,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212690729347990930
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -15372,7 +15236,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212691398239807004
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -15414,7 +15277,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212692962819762296
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -15456,7 +15318,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212694377125764194
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -15498,7 +15359,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212695746385737486
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -15540,7 +15400,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212701392674154294
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -15582,7 +15441,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212704706030140944
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -15624,7 +15482,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212706047996782868
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -15666,7 +15523,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212725966884730660
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -15708,7 +15564,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212729638520079996
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -15750,7 +15605,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212735958553459274
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -15792,7 +15646,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212744850785561754
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -15834,7 +15687,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212745320768941114
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -15876,7 +15728,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212755556885792116
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -15918,7 +15769,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212762110203205144
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -15960,7 +15810,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212770128825865610
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -16002,7 +15851,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212770261318013978
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -16044,7 +15892,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212776915483008010
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -16086,7 +15933,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212786040388036728
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -16128,7 +15974,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212790266939414144
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -16170,7 +16015,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212795417881706420
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -16212,7 +16056,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212801360564254204
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -16254,7 +16097,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212803274834989480
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -16296,7 +16138,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212803681401930908
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -16338,7 +16179,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212804964234778908
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -16380,7 +16220,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212805074243808854
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -16422,7 +16261,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212816552110840622
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -16464,7 +16302,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212817190136758198
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -16506,7 +16343,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212821852533858392
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -16548,7 +16384,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212827648917973548
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -16590,7 +16425,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212831851197365514
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -16632,7 +16466,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212834708224538688
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -16674,7 +16507,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212835640397354702
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -16716,7 +16548,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212837243733450628
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -16758,7 +16589,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212850611409905424
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -16800,7 +16630,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212852003708231062
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -16842,7 +16671,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212855037977370258
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -16884,7 +16712,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212865520998597298
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -16926,7 +16753,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212867468089707700
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -16968,7 +16794,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212873191175337780
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -17010,7 +16835,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212877140090409154
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -17052,7 +16876,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212880687812478814
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -17094,7 +16917,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212885833049388988
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -17136,7 +16958,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212900284433644540
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -17178,7 +16999,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212900619144061176
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -17220,7 +17040,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212907824837808124
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -17262,7 +17081,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212913643021239928
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -17304,7 +17122,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212916340427513926
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -17346,7 +17163,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212916657607498516
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -17388,7 +17204,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212919149440103312
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -17430,7 +17245,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212924262716728160
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -17472,7 +17286,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212926424929159054
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -17514,7 +17327,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212929224326034040
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -17556,7 +17368,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212931657801333090
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -17598,7 +17409,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212932231058191750
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -17640,7 +17450,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212934545944569696
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -17682,7 +17491,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212934896822439556
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -17724,7 +17532,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212936099175832028
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -17766,7 +17573,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212946039015620114
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -17808,7 +17614,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212954030176029476
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -17850,7 +17655,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212957635805424410
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -17892,7 +17696,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212960053578036774
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -17934,7 +17737,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212961803508235420
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -17976,7 +17778,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212962518119516634
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -18018,7 +17819,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212965658954011460
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -18060,7 +17860,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212974752870114958
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -18102,7 +17901,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212975475750291430
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -18144,7 +17942,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212977314408992802
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -18186,7 +17983,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212987678338568870
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -18228,7 +18024,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212990191027884602
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -18270,7 +18065,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!212 &212997084804260566
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -18312,7 +18106,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
 --- !u!251 &251056003012291712
 PlatformEffector2D:
   m_ObjectHideFlags: 1

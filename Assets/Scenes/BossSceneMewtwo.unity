@@ -1134,7 +1134,7 @@ Prefab:
     - target: {fileID: 114700345945185202, guid: 168dc0060e9638f44aa44c3ea4e934a8,
         type: 2}
       propertyPath: MaxHealth
-      value: 1000
+      value: 700
       objectReference: {fileID: 0}
     - target: {fileID: 82767646450654580, guid: 168dc0060e9638f44aa44c3ea4e934a8,
         type: 2}
@@ -1863,6 +1863,11 @@ Prefab:
       propertyPath: Boss
       value: 
       objectReference: {fileID: 425735207}
+    - target: {fileID: 114854448931713928, guid: 796f9c658c03ee94cb86403dfec3fc50,
+        type: 2}
+      propertyPath: PokestopSpawnProbability
+      value: 0.6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 796f9c658c03ee94cb86403dfec3fc50, type: 2}
   m_IsPrefabParent: 0
