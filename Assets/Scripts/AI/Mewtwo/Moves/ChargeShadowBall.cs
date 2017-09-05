@@ -25,7 +25,7 @@ public class ChargeShadowBall : Skill
         m_remainingCooldown = 0f;
 
         m_castTime = 0.9f;
-        m_defaultCooldown = 10f;
+        m_defaultCooldown = 15f;
 
         m_pullingObjects = new List<GameObject>();
         PullObjectSpeed = 3f;
