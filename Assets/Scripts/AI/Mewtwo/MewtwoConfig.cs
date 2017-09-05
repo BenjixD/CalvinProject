@@ -88,6 +88,7 @@ public class MewtwoConfig : IBossConfig
     {
         Move teleport = new Move(new Teleport(Instance, Mewtwo.Intent.Chase));
         chaseInt.Moveset.Add(teleport);
+        Instance.AggressiveTeleport = teleport;
         Move walk = new Move(new Walk(Instance, Walk.MoveType.Chase));
         chaseInt.Moveset.Add(walk);
     }

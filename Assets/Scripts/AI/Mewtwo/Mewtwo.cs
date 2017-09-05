@@ -17,6 +17,8 @@ public class Mewtwo : AIBehaviour {
     public float PlatformInfluence = 0.1f;
     public float TeleportInfluence = 1.3f;
     public float CorneringInfluence = 1f;
+
+    public Move AggressiveTeleport;
     #endregion
 
     #region Charged Items
@@ -252,11 +254,13 @@ public class Mewtwo : AIBehaviour {
     private void TPRange_IntentBalancer(IntentIndex[] intents)
     {
         //Modify Chase
-        if(CheckPlayerInTPRange() != null)
+        if(AggressiveTeleport != null)
         {
-            intents[2].Index *= TeleportInfluence;
+            if (AggressiveTeleport.Skill.IsReady() && AggressiveTeleport.Skill.IsUsable())
+            {
+                intents[2].Index *= TeleportInfluence;
+            }
         }
-        
     }
 
     //Balance Attack/Avoid
