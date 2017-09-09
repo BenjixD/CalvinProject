@@ -198,12 +198,13 @@ public class AIBehaviour : MonoBehaviour {
     //Basic AI Cognitive Data
     protected Collider2D[] CheckRadiusForObject(float radius, LayerMask layerMasks)
     {
-        Collider2D[] hitColliders = Physics2D.OverlapCircleAll(transform.position, radius, 1 << layerMasks);
+        Collider2D[] hitColliders = Physics2D.OverlapCircleAll(transform.position, radius, layerMasks);
         return hitColliders;
     }
     protected IPlayer CheckPlayerInSight()
     {
-        Collider2D[] hitObjects = CheckRadiusForObject(VisionRadius, LayerMask.NameToLayer("Player"));
+        LayerMask player = (1 << LayerMask.NameToLayer("Player")) | (1 << LayerMask.NameToLayer("NonPlatformInteractor"));
+        Collider2D[] hitObjects = CheckRadiusForObject(VisionRadius, player);
      
         if(hitObjects.Length > 0)
         {
@@ -214,7 +215,8 @@ public class AIBehaviour : MonoBehaviour {
     }
     protected GameObject[] CheckPlatformsInSight()
     {
-        Collider2D[] hitObjects = CheckRadiusForObject(VisionRadius, LayerMask.NameToLayer("Platform"));
+        LayerMask platform = 1 << LayerMask.NameToLayer("Platform");
+        Collider2D[] hitObjects = CheckRadiusForObject(VisionRadius, platform);
         GameObject[] platforms = new GameObject[hitObjects.Length];
 
         for (int i = 0; i < hitObjects.Length; ++i)

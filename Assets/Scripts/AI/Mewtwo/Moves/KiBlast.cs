@@ -51,9 +51,10 @@ public class KiBlast : Skill
     #region Interface
     public override bool IsUsable()
     {
+        LayerMask player = (1 << LayerMask.NameToLayer("Player")) | (1 << LayerMask.NameToLayer("NonPlatformInteractor"));
         Collider2D[] hitColliders = Physics2D.OverlapAreaAll(m_reference.gameObject.transform.position + m_colliderOffset,
                                                              m_reference.gameObject.transform.position - m_colliderOffset,
-                                                             1 << LayerMask.NameToLayer("Player"));
+                                                             player);
 
         return (hitColliders.Length > 0);
     }

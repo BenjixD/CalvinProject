@@ -52,6 +52,7 @@ public class Teleport : Skill
     private Collider2D[] ReferenceObjects()
     {
         int layerMasks = (1 << LayerMask.NameToLayer("Player")) |
+                         (1 << LayerMask.NameToLayer("NonPlatformInteractor")) |
                          (1 << LayerMask.NameToLayer("Ground")) |
                          (1 << LayerMask.NameToLayer("Platform"));
 
@@ -77,7 +78,8 @@ public class Teleport : Skill
         {
             for(int i = 0; i < hits.Length; ++i)
             {
-                if(hits[i].gameObject.layer == LayerMask.NameToLayer("Player"))
+                if(hits[i].gameObject.layer == LayerMask.NameToLayer("Player") ||
+                   hits[i].gameObject.layer == LayerMask.NameToLayer("NonPlatformInteractor"))
                 {
                     players.Add(hits[i]);
                 }

@@ -111,7 +111,8 @@ public class PokestopBehaviour : MonoBehaviour {
     #region Collision Handlers
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.layer.Equals(LayerMask.NameToLayer("Player")))
+        if(other.gameObject.layer.Equals(LayerMask.NameToLayer("Player")) ||
+           other.gameObject.layer.Equals(LayerMask.NameToLayer("NonPlatformInteractor")))
         {
             if(!m_used)
             {

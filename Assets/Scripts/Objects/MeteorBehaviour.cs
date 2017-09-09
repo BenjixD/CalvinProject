@@ -64,7 +64,8 @@ public class MeteorBehaviour : MonoBehaviour {
     #region Trigger Handlers
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.layer.Equals(LayerMask.NameToLayer("Player")))
+        if (other.gameObject.layer.Equals(LayerMask.NameToLayer("Player")) ||
+            other.gameObject.layer.Equals(LayerMask.NameToLayer("NonPlatformInteractor")))
         {
             // TODO: damage player
             other.gameObject.GetComponent<Player>().KnockbackPlayer(Knockback);

@@ -80,8 +80,7 @@ public class ChargeShadowBall : Skill
         {
             if (obj != null)
             {
-               if (obj.layer == LayerMask.NameToLayer("Player") ||
-                   obj.layer == LayerMask.NameToLayer("Platform"))
+               if (obj.layer == LayerMask.NameToLayer("Platform"))
                {
                     obj.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
                }

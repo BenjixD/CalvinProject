@@ -128,7 +128,8 @@ public class Mewtwo : AIBehaviour {
 
     protected IPlayer CheckPlayerInTPRange()
     {
-        Collider2D[] hitObjects = CheckRadiusForObject(TeleportRadius, LayerMask.NameToLayer("Player"));
+        LayerMask player = (1 << LayerMask.NameToLayer("Player")) | (1 << LayerMask.NameToLayer("PlatformInteractor"));
+        Collider2D[] hitObjects = CheckRadiusForObject(TeleportRadius, player);
 
         if (hitObjects.Length > 0)
         {

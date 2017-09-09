@@ -48,7 +48,8 @@ public class KiBlastBehaviour : MonoBehaviour, IBullet
     #region Trigger Handlers
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("Player")))
+        if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("Player")) ||
+            collision.gameObject.layer.Equals(LayerMask.NameToLayer("NonPlatformInteractor")))
         {
             OnHit(collision.gameObject);
         }
